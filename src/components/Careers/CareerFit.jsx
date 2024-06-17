@@ -4,7 +4,7 @@ export default function CareerFit() {
   return (
     <div className="px-20 text-blue-900 bg-gray-100 -skew-y-3 my-0 py-10 ">
       <div className="py-20 skew-y-3">
-        <h1 className="text-2xl font-bold mb-4 border-b-2 border-blue-900 py-1">
+        <h1 className="text-2xl font-medium mb-4 border-b-2 border-blue-900 py-1">
           You may be a good fit if you:
         </h1>
         <div className="flex ">
