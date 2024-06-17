@@ -22,7 +22,7 @@ export default function CareersCta() {
         excellence and innovation.
       </p>
       <Link className="my-3 bg-blue-500 text-white text-lg py-3 px-20 rounded-sm hover:bg-blue-400 transform duration-300">
-        Career Opportuinities
+        Career Opportunities
       </Link>
     </div>
   );
