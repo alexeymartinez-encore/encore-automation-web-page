@@ -1,7 +1,5 @@
+import CareersLanding from "../components/Careers/CareersLanding";
+
 export default function CareersPage() {
-  return (
-    <div>
-      <h1>Careers Page</h1>
-    </div>
-  );
+  return <CareersLanding />;
 }
