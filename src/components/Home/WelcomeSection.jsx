@@ -1,8 +1,9 @@
 import powderCoating from "../../assets/video/PowderCoating.mov";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
@@ -29,15 +30,24 @@ export default function LandingPage() {
           industry markets.
         </p>
         <div className="flex flex-col md:flex-row z-50  ">
-          <button className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white md:my-5 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300">
+          <Link
+            to="/about"
+            className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white md:my-5 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300"
+          >
             Company
-          </button>
-          <button className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white my-5 md:mx-10 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300">
+          </Link>
+          <Link
+            to="/systems"
+            className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white my-5 md:mx-10 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300"
+          >
             Systems
-          </button>
-          <button className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white md:my-5 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300">
+          </Link>
+          <Link
+            to="/support"
+            className="bg-blue-500 md:bg-transparent hover:bg-blue-500 md:text-xl text-white font-light hover:text-white md:my-5 py-2 md:py-4 px-6 md:px-10 border border-white hover:border-transparent rounded transition duration-300"
+          >
             Support
-          </button>
+          </Link>
         </div>
 
         <motion.div
@@ -51,14 +61,14 @@ export default function LandingPage() {
           }}
           className="absolute flex bottom-0 left-0 z-50 w-full justify-center"
         >
-          <Link
+          <ScrollLink
             to="experience"
             smooth={true}
             duration={500}
             className=" hover:cursor-pointer"
           >
             <FontAwesomeIcon icon={faAngleDown} className="h-10 text-white " />
-          </Link>
+          </ScrollLink>
         </motion.div>
       </div>
     </div>
