@@ -45,7 +45,7 @@ export default function AutomotiveFinishInspection() {
       />
       <SystemDescription
         img={automatedDefectMarking}
-        title="Eagle Eye Top Coat Inspection"
+        title="Automated Defect Marking Cell"
         desc="The Automated Defect Marking Cell is an advanced system designed to enhance manufacturing quality 
         control by precisely identifying and marking defects. It features automatic marking of each defect, 
         ensuring that every detected flaw is accurately highlighted. The system employs advanced algorithms 
