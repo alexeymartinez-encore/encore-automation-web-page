@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import supportImg from "../../assets/supportPage.webp";
+import supportImg from "../../assets/support/supportPage.webp";
 
 export default function SupportWelcome() {
   return (

@@ -6,13 +6,22 @@ export default function Footer() {
       <div className="grid grid-cols-5 grid-rows-1 text-white py-20">
         <div className="flex flex-col">
           <h1 className="text-md font-bold py-5">Solutions</h1>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
+          <Link
+            to="/systems"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
             Automotive
           </Link>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
+          <Link
+            to="/systems/aerospace"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
             Aerospace
           </Link>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
+          <Link
+            to="/systems/general-industry"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
             General Industry
           </Link>
         </div>
@@ -33,13 +42,22 @@ export default function Footer() {
         </div>
         <div className="flex flex-col">
           <h1 className="text-md font-bold py-5">Company</h1>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
+          <Link
+            to="/about"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
             About
           </Link>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
-            Blog
+          <Link
+            to="/employee-portal"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
+            Employee Portal
           </Link>
-          <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">
+          <Link
+            to="/careers"
+            className="font-thin py-3 hover:text-blue-500 transform duration-200"
+          >
             Careers
           </Link>
           <Link className="font-thin py-3 hover:text-blue-500 transform duration-200">

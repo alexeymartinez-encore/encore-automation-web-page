@@ -1,4 +1,4 @@
-import aerospace from "../../../assets/aerospace.webp";
+import aerospace from "../../../assets/aerospace/aerospace.webp";
 
 export default function SystemsAerospace() {
   return (

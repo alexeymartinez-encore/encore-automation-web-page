@@ -1,7 +1,8 @@
-import featherImg from "../../../../assets/5in1.jpeg";
-import blowoffImg from "../../../../assets/blowoff.jpeg";
-import SHSander from "../../../../assets/SHSander.jpg";
-import waterBlasting from "../../../../assets/waterBlasting.png";
+import featherImg from "../../../../assets/automotive/featherDuster.jpg";
+import blowoffImg from "../../../../assets/automotive/blowoff.jpeg";
+import SHSander from "../../../../assets/automotive/SHSander.jpg";
+import waterBlasting from "../../../../assets/automotive/waterBlasting.png";
+import swordBrush from "../../../../assets/automotive/swordbrush.png";
 import SystemDescription from "./SystemDescription";
 
 export default function AutomotiveFeatherDuster() {
@@ -9,7 +10,7 @@ export default function AutomotiveFeatherDuster() {
     <div className="flex flex-row gap-10 justify-start flex-wrap">
       <SystemDescription
         img={featherImg}
-        title="Feather Duster"
+        title="Feather Duster & Blow-Offs"
         desc="Encore provides custom feather duster systems for various vehicle and
         product sizes. Our offerings include fully robotic feather dusters with
         optional integrated hoods, floor-mounted hood assemblies, and standard
@@ -19,6 +20,14 @@ export default function AutomotiveFeatherDuster() {
         systems."
       />
       <SystemDescription
+        img={swordBrush}
+        title="Sword Brush"
+        desc="Encore's robotic sanding and buffing systems use the Encore multi-headed sander and
+         standard sanding equipment to handle the full exterior surfaces of vehicles and their components. Our systems
+          feature automatic paper changers for efficient replacement and validation, integrated dust removal systems to 
+          clear residual materials, and automatic tool change capabilities for added flexibility in the sanding process."
+      />
+      {/* <SystemDescription
         img={blowoffImg}
         title="Blow Off"
         desc="Encore specializes in engineering and designing standard machines and
@@ -31,7 +40,7 @@ export default function AutomotiveFeatherDuster() {
           graphical user interfaces, and clean wall or in-booth designs.
           Additionally, dirt collection can be managed via vacuum or booth
           collection systems."
-      />
+      /> */}
       <SystemDescription
         img={SHSander}
         title="Sanding/Buffing"

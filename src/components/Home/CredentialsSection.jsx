@@ -1,6 +1,6 @@
-import asi from "../../assets/fanuc2.png";
-import iso from "../../assets/iso.png";
-import iso14 from "../../assets/iso14001.png";
+import asi from "../../assets/credentials/fanuc2.png";
+import iso from "../../assets/credentials/iso.png";
+import iso14 from "../../assets/credentials/iso14001.png";
 export default function CredentialsSection() {
   return (
     <div

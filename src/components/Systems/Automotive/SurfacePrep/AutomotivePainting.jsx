@@ -1,6 +1,6 @@
 import SystemDescription from "./SystemDescription";
-import liquidPaint from "../../../../assets/liquidPainting.jpg";
-import powderPaint from "../../../../assets/powderPainting.jpeg";
+import liquidPaint from "../../../../assets/automotive/liquidPainting.jpg";
+import powderPaint from "../../../../assets/automotive/powderPainting.jpeg";
 
 export default function AutomotivePainting() {
   return (

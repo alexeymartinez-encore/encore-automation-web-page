@@ -1,9 +1,9 @@
-import fitImg from "../../assets/careersFit.webp";
+import fitImg from "../../assets/career/careersFit.webp";
 
 export default function CareerFit() {
   return (
-    <div className="px-20 text-blue-900 bg-gray-100 -skew-y-3 my-0 py-10 ">
-      <div className="py-20 skew-y-3">
+    <div className="px-20 text-blue-900 bg-gray-100 -skew-y-2 my-0 py-10 ">
+      <div className="py-20 skew-y-2">
         <h1 className="text-2xl font-medium mb-4 border-b-2 border-blue-900 py-1">
           You may be a good fit if you:
         </h1>

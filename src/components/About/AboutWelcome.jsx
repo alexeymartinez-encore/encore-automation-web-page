@@ -1,4 +1,4 @@
-import autoImg from "../../assets/auto_industry.png";
+import autoImg from "../../assets/automotive/auto_industry.png";
 
 export default function AboutWelcome() {
   return (

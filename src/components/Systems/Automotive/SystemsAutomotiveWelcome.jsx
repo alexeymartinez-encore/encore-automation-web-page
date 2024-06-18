@@ -1,5 +1,5 @@
 // import sealingCar from "../../../assets/sealing-car.jpeg";
-import carSunset from "../../../assets/car.png";
+import carSunset from "../../../assets/automotive/car.png";
 
 export default function SystemsAutomotiveWelcome() {
   return (

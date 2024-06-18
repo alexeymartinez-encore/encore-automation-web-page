@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import autoIndustry from "../../assets/auto_industry.png";
-import aeroIndustry from "../../assets/aero_industry.png";
-import generalIndustry from "../../assets/general_industry.png";
+import autoIndustry from "../../assets/automotive/auto_industry.png";
+import aeroIndustry from "../../assets/aerospace/aero_industry.png";
+import generalIndustry from "../../assets/generalIndustry/general_industry.png";
 
 export default function IndustriesSection() {
   return (

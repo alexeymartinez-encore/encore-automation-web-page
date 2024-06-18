@@ -1,4 +1,4 @@
-import carSunset from "../../../assets/robotic-automation.jpg";
+import carSunset from "../../../assets/generalIndustry/robotic-automation.jpg";
 
 export default function SystemsGeneralIndustry() {
   return (

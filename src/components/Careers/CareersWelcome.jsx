@@ -1,4 +1,4 @@
-import careersImg from "../../assets/careers.webp";
+import careersImg from "../../assets/career/careers.webp";
 
 export default function CareersWelcome() {
   return (
