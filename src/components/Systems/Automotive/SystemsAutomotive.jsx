@@ -6,7 +6,7 @@ import SystemsAutomotiveWelcome from "./SystemsAutomotiveWelcome";
 
 export default function SystemsAutomotive() {
   return (
-    <div className="px-20 pb-10">
+    <div className="flex flex-col justify-center items-center px-20 pb-10">
       <SystemsAutomotiveWelcome />
       <hr></hr>
       <AutomotiveSurfacePrep />
