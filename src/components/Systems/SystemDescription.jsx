@@ -14,7 +14,7 @@ export default function SystemDescription({ img, title, desc }) {
         <div className="sticky bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white via-white to-transparent pointer-events-none"></div>
       </div>
 
-      <button className="bg-blue-500 text-white py-3 px-10 rounded-sm my-3 hover:bg-blue-400 transform duration-300">
+      <button className="bg-blue-500 font-light text-white py-3 px-10 rounded-sm my-3 hover:bg-blue-400 transform duration-300">
         Learn More
       </button>
     </div>

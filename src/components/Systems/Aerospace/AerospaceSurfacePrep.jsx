@@ -4,11 +4,12 @@ import aeroRinse from "../../../assets/aerospace/aero-rinse.png";
 import aeroSand from "../../../assets/aerospace/aero-sand.png";
 
 import SystemDescription from "../SystemDescription";
+import AerospaceSectionHeader from "./AerospaceSectionHeader";
 
 export default function AerospaceSurfacePrep() {
   return (
     <div>
-      <AerospaceProcessHeader
+      <AerospaceSectionHeader
         title="Surface Preparation"
         desc="Encore Automation excels in aerospace surface preparation with advanced processes 
         including scrubbing, rinsing/washing, and sanding. Our automated systems ensure thorough 

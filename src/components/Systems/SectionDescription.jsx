@@ -1,4 +1,4 @@
-export default function AerospaceProcessHeader({ title, desc, img }) {
+export default function SectionDescription({ title, desc, img }) {
   return (
     <div className="flex flex-col p-5 rounded-sm text-center hover:shadow-md transform duration-300 mb-5">
       <h1 className="text-4xl text-blue-500 font-light py-5 my-3 bg-gray-100">

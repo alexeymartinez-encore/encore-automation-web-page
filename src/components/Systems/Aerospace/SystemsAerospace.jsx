@@ -7,8 +7,10 @@ export default function SystemsAerospace() {
   return (
     <div className="px-20 py-10">
       <AerospaceWelcome />
-      <AerospacePainting />
-      <AerospaceSealing />
+      <div className="flex items-center justify-between">
+        <AerospacePainting />
+        <AerospaceSealing />
+      </div>
       <AerospaceSurfacePrep />
     </div>
   );

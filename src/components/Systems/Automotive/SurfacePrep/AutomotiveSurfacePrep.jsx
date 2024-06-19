@@ -19,7 +19,7 @@ export default function AutomotiveSurfacePrep() {
         />
         <AutomotiveFeatherDuster />
       </div>
-      <hr className="py-5"></hr>
+      {/* <hr className="py-5"></hr> */}
       <div className="my-3">
         <AutomotiveSurfacePrepHeader
           title="Painting"
@@ -31,7 +31,7 @@ export default function AutomotiveSurfacePrep() {
         />
         <AutomotivePainting />
       </div>
-      <hr className="py-5"></hr>
+      {/* <hr className="py-5"></hr> */}
       <div className="my-3">
         <AutomotiveSurfacePrepHeader
           title="Sealing"
@@ -42,7 +42,7 @@ export default function AutomotiveSurfacePrep() {
         />
         <AutomotiveSealing />
       </div>
-      <hr className="py-5"></hr>
+      {/* <hr className="py-5"></hr> */}
 
       <div className="my-3">
         <AutomotiveSurfacePrepHeader

@@ -8,7 +8,7 @@ export default function SystemsAutomotive() {
   return (
     <div className="flex flex-col justify-center items-center px-20 pb-10">
       <SystemsAutomotiveWelcome />
-      <hr></hr>
+
       <AutomotiveSurfacePrep />
       <hr></hr>
     </div>

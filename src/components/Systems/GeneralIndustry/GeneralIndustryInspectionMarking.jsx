@@ -1,18 +1,16 @@
-import SystemDescription from "../SystemDescription";
-import AerospaceProcessHeader from "./AerospaceProcessHeader";
+import defectDetect from "../../../assets/automotive/defectDetection.jpeg";
+import SectionDescription from "../SectionDescription";
 
-import aeroPainting from "../../../assets/aerospace/aerospace-painting.png";
-
-export default function AerospacePainting() {
+export default function GeneralIndustryInspectionMarking() {
   return (
     <div className="mx-5 w-[40rem]">
-      <AerospaceProcessHeader
-        title="Painting"
+      <SectionDescription
+        title="Inspection & Marking"
         desc="Encore Automation offers expert aerospace painting solutions, specializing in primers, 
         basecoats, clearcoats, and multi-component paints. We use advanced methods like electrostatic 
         guns and rotary atomizers, integrating vision systems for precision. Our services ensure optimal 
         performance from design to commissioning and training."
-        img={aeroPainting}
+        img={defectDetect}
       />
       {/* <div className="flex flex-col items-center">
         <SystemDescription
