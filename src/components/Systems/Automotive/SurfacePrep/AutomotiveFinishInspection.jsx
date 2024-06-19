@@ -1,4 +1,4 @@
-import SystemDescription from "./SystemDescription";
+import SystemDescription from "../../SystemDescription";
 import scannerImg from "../../../../assets/automotive/scanner.jpeg";
 import defectDetectionImg from "../../../../assets/automotive/micro-epsilon-sensor.jpg";
 import eagleEye from "../../../../assets/automotive/eagle-eye.webp";
@@ -6,7 +6,7 @@ import automatedDefectMarking from "../../../../assets/automotive/automated-defe
 
 export default function AutomotiveFinishInspection() {
   return (
-    <div className="flex flex-row gap-10 justify-start flex-wrap">
+    <div className="flex flex-row gap-10 justify-between flex-wrap">
       <SystemDescription
         img={scannerImg}
         title="Thickness/Wavescan/Color"

@@ -3,11 +3,11 @@ import blowoffImg from "../../../../assets/automotive/blowoff.jpeg";
 import SHSander from "../../../../assets/automotive/SHSander.jpg";
 import waterBlasting from "../../../../assets/automotive/waterBlasting.png";
 import swordBrush from "../../../../assets/automotive/swordbrush.png";
-import SystemDescription from "./SystemDescription";
+import SystemDescription from "../../SystemDescription";
 
 export default function AutomotiveFeatherDuster() {
   return (
-    <div className="flex flex-row gap-10 justify-start flex-wrap">
+    <div className="flex flex-row gap-10 justify-between flex-wrap">
       <SystemDescription
         img={featherImg}
         title="Feather Duster & Blow-Offs"

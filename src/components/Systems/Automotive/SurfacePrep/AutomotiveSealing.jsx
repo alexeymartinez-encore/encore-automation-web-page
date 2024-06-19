@@ -1,11 +1,11 @@
-import SystemDescription from "./SystemDescription";
+import SystemDescription from "../../SystemDescription";
 import tesaTape from "../../../../assets/automotive/tesaTape.png";
 import sealingImg from "../../../../assets/automotive/sealer.jpeg";
 import purfoamImg from "../../../../assets/automotive/purfoam.png";
 
 export default function AutomotiveSealing() {
   return (
-    <div className="flex flex-row gap-10 justify-start flex-wrap">
+    <div className="flex flex-row gap-10 justify-between flex-wrap">
       <SystemDescription
         img={tesaTape}
         title="tesa Tape"

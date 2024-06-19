@@ -1,4 +1,4 @@
-import SystemDescription from "./SystemDescription";
+import SystemDescription from "../../SystemDescription";
 import liquidPaint from "../../../../assets/automotive/liquidPainting.jpg";
 import powderPaint from "../../../../assets/automotive/powderPainting.jpeg";
 
