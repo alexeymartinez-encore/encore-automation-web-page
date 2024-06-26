@@ -17,7 +17,7 @@ export default function AerospaceSurfacePrep() {
         Integrated precision features ensure optimal performance and efficiency in preparing aircraft parts 
         for painting and sealing."
       />
-      <div className="flex justify-start items-center gap-10">
+      <div className="flex flex-wrap justify-start items-center gap-10">
         <SystemDescription
           img={aeroScrub}
           title="Scrub"

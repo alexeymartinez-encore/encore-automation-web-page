@@ -5,7 +5,7 @@ import uvSealingImg from "../../../assets/aerospace/uvSealer3.jpeg";
 
 export default function AerospaceSealingTest() {
   return (
-    <div className="mx-0 flex my-20 gap-20 justify-around items-center">
+    <div className="mx-0 flex my-20 gap-20 justify-around items-center flex-col md:flex-row">
       <img
         src={uvSealingImg}
         className=" rounded-md h-[25rem] w-[24rem] shadow-lg object-cover"

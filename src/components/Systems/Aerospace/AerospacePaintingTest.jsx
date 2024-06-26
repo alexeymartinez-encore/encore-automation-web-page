@@ -5,7 +5,7 @@ import aeroPainting from "../../../assets/aerospace/aero-painting2.png";
 
 export default function AerospacePaintingTest() {
   return (
-    <div className="mx-0 flex my-20 gap-20 justify-around items-center">
+    <div className="mx-0 flex my-20 gap-20 justify-around items-center flex-col md:flex-row">
       <div className="flex flex-col md:w-[30rem]  justify-center rounded-sm  transform duration-300 ">
         <h1 className="text-3xl text-blue-500 font-light py-5 mb-3 text-center bg-gray-200 ">
           Painting
