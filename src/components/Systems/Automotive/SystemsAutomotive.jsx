@@ -4,7 +4,7 @@ import carSunset from "../../../assets/automotive/car.png";
 
 export default function SystemsAutomotive() {
   return (
-    <div className="flex flex-col justify-center items-center mx-0 md:px-20 pb-10">
+    <div className="flex flex-col justify-center items-center mx-0 px-5 md:px-20 pb-10">
       <SystemsHeading
         img={carSunset}
         title="Driving the future of automotive manufacturing."
