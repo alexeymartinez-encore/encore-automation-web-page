@@ -45,12 +45,12 @@ function Hamburger() {
           >
             <div
               className={`flex flex-col items-center text-gray-900 px-10
-              bg-opacity-70 transition duration-1000 bg-white`}
+               transition duration-1000 bg-white`}
             >
               <NavigationLinks />
             </div>
           </motion.div>
-        ) : null}{" "}
+        ) : null}
       </AnimatePresence>
     </div>
   );

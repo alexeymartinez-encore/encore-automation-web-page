@@ -10,7 +10,7 @@ export default function IndustryCard({ img, link, services, title }) {
         <img
           src={img}
           className="shadow-lg rounded z-10
-          group:hover:bg-black"
+          group:hover:bg-black "
         />
 
         <div

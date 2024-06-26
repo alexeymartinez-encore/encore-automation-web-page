@@ -25,14 +25,14 @@ export default function LandingPage() {
         style={{ height: "95vh" }}
       >
         <h1
-          className="z-50 text-white text-3xl font-medium text-center 
-                      md:text-start md:text-6xl 2xl:text-8xl"
+          className="z-10 text-white text-3xl font-medium text-center 
+                      md:text-start md:text-6xl 2xl:text-8xl "
         >
           Turn-key Robotic Automation System Supplier Integrator.
         </h1>
         <p
           className="z-50 text-white text-lg font-thin my-5 text-center
-                      md:text-2xl 2xl:text-4xl"
+                      md:text-2xl 2xl:text-4xl "
         >
           Supplying robotic systems in the Automotive, Aerospace and General
           industry markets.

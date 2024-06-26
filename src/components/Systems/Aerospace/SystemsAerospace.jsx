@@ -25,8 +25,9 @@ export default function SystemsAerospace() {
       />
       {/* <AerospaceWelcome /> */}
       <AerospaceSectionHeader title="Painting & Sealing" />
-      <div className="flex flex-col px-20">
+      <div className="flex flex-col md:flex-row  gap-5 px-10 justify-around items-center">
         <AerospacePaintingTest />
+        {/* <div className=" flex items-center justify-center h-[10rem] border mx-[0]"></div> */}
         <AerospaceSealingTest />
         {/* <AerospacePainting />
         <AerospaceSealing /> */}

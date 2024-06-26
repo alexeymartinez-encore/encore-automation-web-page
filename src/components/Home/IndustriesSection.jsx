@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
 import autoIndustry from "../../assets/automotive/auto_industry.png";
-import aeroIndustry from "../../assets/aerospace/aero_industry.png";
+// import aeroIndustry from "../../assets/aerospace/aero_industry.png";
+import aeroIndustry from "../../assets/aerospace/honda-plane.png";
+
 import generalIndustry from "../../assets/generalIndustry/general_industry.png";
 import IndustryCard from "./IndustryCard";
 import { AERO_SERVICES, AUTO_SERVICES, GENERAL_SERVICES } from "../util/util";
