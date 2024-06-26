@@ -6,7 +6,7 @@ import { faLaptopFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function SupportSection() {
   return (
-    <div className="flex flex-col md:flex-row justify-between my-0 flex-wrap mb-10">
+    <div className="flex flex-col md:flex-row justify-center items-center md:justify-between my-0 flex-wrap mb-10">
       <SupportTypeCard
         title="Emergency Service "
         subtitle="24 / 7 Support"

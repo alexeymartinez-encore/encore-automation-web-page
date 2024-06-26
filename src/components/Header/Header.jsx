@@ -15,7 +15,7 @@ export default function Header() {
   }
 
   return (
-    <header className="flex items-center justify-between px-10 py-3 md:py-5 bg-white bg-opacity-50 relative z-20">
+    <header className="flex items-center justify-between px-5 py-3 md:py-5 bg-white bg-opacity-50 relative z-20">
       <NavigationLogo />
       <Hamburger />
       <div

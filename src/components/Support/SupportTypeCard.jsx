@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function SupportTypeCard({ title, desc, icon, subtitle, cta }) {
   return (
-    <div className="flex flex-col justify-around items-center w-[18rem]  p-5 rounded-sm h-[25rem] hover:shadow-md transform duration-300">
+    <div
+      className="flex flex-col justify-around items-center w-[18rem]  my-5 md:my-0
+                 p-5 rounded-sm h-[25rem] shadow-md md:shadow-none hover:shadow-md transform duration-300"
+    >
       <div className="flex flex-col justify-center items-center gap-1">
         <FontAwesomeIcon className="text-blue-500 h-10 py-3" icon={icon} />
         <h1 className="text-xl font-normal text-blue-900">{title}</h1>

@@ -1,8 +1,8 @@
 export default function SystemDescription({ img, title, desc }) {
   return (
     <div
-      className="flex flex-col bg-white hover:shadow-lg justify-between
-                p-5 rounded-md transform duration-300 w-[25rem] my-5"
+      className="flex flex-col bg-white shadow-lg md:shadow-none md:hover:shadow-lg justify-between
+                p-5 rounded-md transform duration-300 md:w-[25rem] my-5"
     >
       <img src={img} className="h-40 rounded-sm object-cover" />
 

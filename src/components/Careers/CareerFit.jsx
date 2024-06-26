@@ -2,12 +2,12 @@ import fitImg from "../../assets/career/careersFit.webp";
 
 export default function CareerFit() {
   return (
-    <div className="px-20 text-blue-900 bg-gray-100 -skew-y-2 my-0 py-10 ">
+    <div className="px-10 md:px-20 text-blue-900 bg-gray-100 -skew-y-2 my-0 py-10 ">
       <div className="py-20 skew-y-2">
-        <h1 className="text-2xl font-medium mb-4 border-b-2 border-blue-900 py-1">
+        <h1 className="text-xl md:text-2xl md:text-start text-center font-medium mb-4 border-b-2 border-blue-900 py-1">
           You may be a good fit if you:
         </h1>
-        <div className="flex ">
+        <div className="flex flex-col md:flex-row">
           <ul className="font-thin list-disc list-inside flex flex-col gap-2 p-5">
             <li>
               Thrive on Innovation and are constantly pushing the boundaries of
@@ -44,7 +44,7 @@ export default function CareerFit() {
               and hobbies outside of work.
             </li>
           </ul>
-          <img className="h-[25rem] rounded-sm" src={fitImg} />
+          <img className="h-[25rem] rounded-sm object-cover" src={fitImg} />
         </div>
       </div>
     </div>

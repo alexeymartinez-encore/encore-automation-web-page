@@ -10,11 +10,8 @@ export default function LandingPage() {
     <>
       <WelcomeSection />
       <ExperienceSection />
-      {/* <CredentialsSection /> */}
-      {/* <DivisionUI /> */}
       <IndustriesSection />
       <CredentialsSection />
-      {/* <ExperienceSection /> */}
       <Footer />
     </>
   );

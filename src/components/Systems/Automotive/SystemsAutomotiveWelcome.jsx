@@ -9,10 +9,10 @@ export default function SystemsAutomotiveWelcome() {
         src={carSunset}
         alt="Sealing Car"
       />
-      <h1 className="text-6xl text-blue-900 font-light pt-5 ">
+      <h1 className="text-3xl md:text-6xl text-blue-900 font-light pt-5 ">
         Driving the future of automotive manufacturing.
       </h1>
-      <p className="text-xl  font-thin pt-5 text-blue-900">
+      <p className="text-md md:text-xl  font-thin pt-5 text-blue-900">
         Encore Automation, revolutionizes the automotive industry through
         state-of-the-art automation in painting, sealing, surface finishing,
         coating, and inspection processes. Our cutting-edge robotic systems and

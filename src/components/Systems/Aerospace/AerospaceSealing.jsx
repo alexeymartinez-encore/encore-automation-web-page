@@ -4,7 +4,7 @@ import SystemDescription from "../SystemDescription";
 
 export default function AerospaceSealing() {
   return (
-    <div className=" mx-5 w-[40rem]">
+    <div className=" mx-5 md:w-[40rem] lg:w-[60rem]">
       <AerospaceProcessHeader
         title="Sealing"
         desc="Encore quality measurement systems use proven off-the-shelf technology to measure thickness, 

@@ -1,11 +1,11 @@
-import carSunset from "../../../assets/generalIndustry/robotic-automation.jpg";
+import roboAutomation from "../../../assets/generalIndustry/robotic-automation.jpg";
 
 export default function GeneralIndustryWelcome() {
   return (
     <div className="  py-5">
       <img
         className="w-full h-[15rem] object-cover opacity-70 rounded-lg"
-        src={carSunset}
+        src={roboAutomation}
         alt="Sealing Car"
       />
       <h1 className="text-6xl text-blue-900 font-light pt-5">

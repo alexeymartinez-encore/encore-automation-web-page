@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function CareersCta() {
   return (
-    <div className="flex flex-col justify-center items-center px-20 py-10 font-thin">
-      <p className="text-lg">
+    <div className="flex flex-col justify-center items-center px-5 md:px-20 py-10 font-thin">
+      <p className="py-5 md:py-3 md:text-lg">
         We believe that our success is driven by the passion and expertise of
         our talented team. We are dedicated to fostering a collaborative and
         inclusive work environment where every team member can thrive and
@@ -13,7 +13,7 @@ export default function CareersCta() {
         professional or a recent graduate, we offer a range of career
         opportunities that cater to various skill sets and career aspirations.
       </p>
-      <p className="py-3 text-lg">
+      <p className="py-5 md:py-3 md:text-lg">
         If you are enthusiastic about innovation, eager to solve complex
         challenges, and ready to make a significant impact, Encore Automation is
         the place for you. Join us and be a part of a dynamic team that is

@@ -5,7 +5,7 @@ import aeroPainting from "../../../assets/aerospace/aerospace-painting.png";
 
 export default function AerospacePainting() {
   return (
-    <div className="mx-5 w-[40rem]">
+    <div className="mx-5 md:w-[40rem] lg:w-[60rem]">
       <AerospaceProcessHeader
         title="Painting"
         desc="Encore Automation offers expert aerospace painting solutions, specializing in primers, 

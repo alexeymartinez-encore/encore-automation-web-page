@@ -1,19 +1,15 @@
+import ExperienceCard from "./ExperienceCard";
+
 export default function ExperienceSection() {
   return (
-    <div id="experience" className="grid grid-cols-3 grid-rows-1 py-20">
-      <div className="flex flex-col items-center justify-center p-10 border-r-2 ">
-        <h1 className="text-5xl font-bold p-5">5+</h1>
-        <p>Countries of operations</p>
-      </div>
-      <div className="flex flex-col items-center justify-center p-10 border-r-2">
-        <h1 className="text-5xl font-bold p-5">20+</h1>
-        <p>Years of industry experience</p>
-      </div>
-      <div className="flex flex-col items-center justify-center p-10">
-        <h1 className="text-5xl font-bold p-5">50+</h1>
-        <p>Companies Served</p>
-      </div>
-      {/* <div className="p-10">4</div> */}
+    <div
+      id="experience"
+      className="grid grid-cols-3 grid-rows-1 py-5
+                                    md:py-20 md:px-20"
+    >
+      <ExperienceCard title="5+" desc="Countries of operations" />
+      <ExperienceCard title="20+" desc="Years of industry experience" />
+      <ExperienceCard title="50+" desc="Companies Served" />
     </div>
   );
 }

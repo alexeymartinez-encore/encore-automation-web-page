@@ -1,7 +1,7 @@
 export default function SupportSectionHeading() {
   return (
     <div className="text-center bg-gray-100 p-10 rounded-sm font-thin">
-      <h1 className="text-3xl text-blue-500 font-light mb-3">
+      <h1 className="text-xl md:text-3xl text-blue-500 font-light mb-3">
         Encore Automation offers a comprehensive suite of Lifecycle Management
         Services
       </h1>

@@ -6,7 +6,7 @@ import automatedDefectMarking from "../../../../assets/automotive/automated-defe
 
 export default function AutomotiveFinishInspection() {
   return (
-    <div className="flex flex-row gap-10 justify-between flex-wrap">
+    <div className="flex flex-row gap-10 justify-start flex-wrap">
       <SystemDescription
         img={scannerImg}
         title="Thickness/Wavescan/Color"
