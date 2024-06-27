@@ -7,7 +7,7 @@ import SystemDescription from "../../SystemDescription";
 
 export default function AutomotiveFeatherDuster() {
   return (
-    <div className="flex flex-row gap-10 justify-between flex-wrap">
+    <div className="flex flex-row gap-10 justify-start flex-wrap">
       <SystemDescription
         img={featherImg}
         title="Feather Duster & Blow-Offs"

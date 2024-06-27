@@ -1,4 +1,5 @@
 import roboAutomation from "../../../assets/generalIndustry/robotic-automation.jpg";
+import SectionHeading from "../SectionHeading";
 
 import SystemsHeading from "../SystemsHeading";
 import GeneralIndustryInspectionMarking from "./GeneralIndustryInspectionMarking";
@@ -20,7 +21,8 @@ export default function SystemsGeneralIndustry() {
         cost-effective solutions that enhance productivity and safety, driving
         the future of automation excellence."
       />
-      <div className="flex justify-around items-center">
+      <SectionHeading title="Sealing & Inspection & Marking" />
+      <div className="flex flex-col md:flex-row flex-wrap gap-5 px-5 md:px-10 justify-around items-center">
         <GeneralIndustrySealing />
         <GeneralIndustryInspectionMarking />
       </div>

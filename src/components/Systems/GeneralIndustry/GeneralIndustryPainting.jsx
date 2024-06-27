@@ -13,7 +13,7 @@ export default function GeneralIndustryPainting() {
           process is highly automated to ensure consistency, quality, and
           efficiency."
       />
-      <div className="flex gap-10">
+      <div className="flex gap-10 flex-wrap">
         <SystemDescription
           img={liquidPaint}
           title="Liquid Painting"

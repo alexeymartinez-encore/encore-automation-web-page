@@ -6,7 +6,7 @@ import AutomotiveSurfacePrepHeader from "./AutomotiveSurfacePrepHeader";
 
 export default function AutomotiveSurfacePrep() {
   return (
-    <div className="px-0 py-5 flex flex-col justify-center items-center ">
+    <div className="px-0 py-5 flex flex-col">
       <div className="my-3">
         <AutomotiveSurfacePrepHeader
           title="Surface Preparation"

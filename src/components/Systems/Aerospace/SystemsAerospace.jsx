@@ -1,12 +1,9 @@
 import SystemsHeading from "../SystemsHeading";
 import AerospacePainting from "./AerospacePainting";
-import AerospacePaintingTest from "./AerospacePaintingTest";
 import AerospaceSealing from "./AerospaceSealing";
-import AerospaceSealingTest from "./AerospaceSealingTest";
-import AerospaceSectionHeader from "./AerospaceSectionHeader";
 import AerospaceSurfacePrep from "./AerospaceSurfacePrep";
-import AerospaceWelcome from "./AerospaceWelcome";
 import aerospace from "../../../assets/aerospace/aerospace.webp";
+import SectionHeading from "../SectionHeading";
 
 export default function SystemsAerospace() {
   return (
@@ -23,14 +20,10 @@ export default function SystemsAerospace() {
         sustainable and cost-effective solutions that enhance productivity and
         safety."
       />
-      {/* <AerospaceWelcome /> */}
-      <AerospaceSectionHeader title="Painting & Sealing" />
-      <div className="flex flex-col md:flex-row  gap-5 px-5 md:px-10 justify-around items-center">
-        <AerospacePaintingTest />
-        {/* <div className=" flex items-center justify-center h-[10rem] border mx-[0]"></div> */}
-        <AerospaceSealingTest />
-        {/* <AerospacePainting />
-        <AerospaceSealing /> */}
+      <SectionHeading title="Painting & Sealing" />
+      <div className="flex flex-col md:flex-row flex-wrap gap-5 px-5 md:px-10 justify-center items-center">
+        <AerospacePainting />
+        <AerospaceSealing />
       </div>
       <AerospaceSurfacePrep />
     </div>

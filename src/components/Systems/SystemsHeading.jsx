@@ -1,6 +1,3 @@
-// import sealingCar from "../../../assets/sealing-car.jpeg";
-// import carSunset from "../../../assets/automotive/car.png";
-
 export default function SystemsHeading({ title, desc, img }) {
   return (
     <div className=" py-5">

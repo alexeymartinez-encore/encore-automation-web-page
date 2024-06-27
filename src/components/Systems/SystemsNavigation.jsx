@@ -10,11 +10,9 @@ export default function SystemsNavigation() {
       <NavLink to="/systems" className={navStyle} end>
         Automotive
       </NavLink>
-      {/* <span className="bg-gray-500 w-1"></span> */}
       <NavLink to="/systems/aerospace" className={navStyle}>
         Aerospace
       </NavLink>
-      {/* <span className="bg-gray-500 w-1"></span> */}
       <NavLink to="/systems/general-industry" className={navStyle}>
         General Industry
       </NavLink>
