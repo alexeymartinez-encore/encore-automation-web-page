@@ -1,14 +1,14 @@
+import SectionHeading from "../../SectionHeading";
 import AutomotiveFeatherDuster from "./AutomotiveFeatherDuster";
 import AutomotiveFinishInspection from "./AutomotiveFinishInspection";
 import AutomotivePainting from "./AutomotivePainting";
 import AutomotiveSealing from "./AutomotiveSealing";
-import AutomotiveSurfacePrepHeader from "./AutomotiveSurfacePrepHeader";
 
 export default function AutomotiveSurfacePrep() {
   return (
     <div className="px-0 py-5 flex flex-col">
       <div className="my-3">
-        <AutomotiveSurfacePrepHeader
+        <SectionHeading
           title="Surface Preparation"
           desc="In the automotive automation industry, surface preparation refers to
             the process of cleaning, treating, and conditioning the surface of
@@ -21,7 +21,7 @@ export default function AutomotiveSurfacePrep() {
       </div>
       {/* <hr className="py-5"></hr> */}
       <div className="my-3">
-        <AutomotiveSurfacePrepHeader
+        <SectionHeading
           title="Painting"
           desc="In the automotive automation industry, painting involves the
           application of coatings to vehicle parts and bodies to provide both
@@ -33,7 +33,7 @@ export default function AutomotiveSurfacePrep() {
       </div>
       {/* <hr className="py-5"></hr> */}
       <div className="my-3">
-        <AutomotiveSurfacePrepHeader
+        <SectionHeading
           title="Sealing"
           desc="
           In the automotive automation industry, sealing involves applying materials to vehicle joints, seams, 
@@ -45,7 +45,7 @@ export default function AutomotiveSurfacePrep() {
       {/* <hr className="py-5"></hr> */}
 
       <div className="my-3">
-        <AutomotiveSurfacePrepHeader
+        <SectionHeading
           title="Finish Inspection"
           desc="
           In the automotive automation industry, finish inspection is the process of examining the final appearance 

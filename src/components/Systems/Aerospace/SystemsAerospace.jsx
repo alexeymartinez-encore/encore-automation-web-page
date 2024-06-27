@@ -21,7 +21,7 @@ export default function SystemsAerospace() {
         safety."
       />
       <SectionHeading title="Painting & Sealing" />
-      <div className="flex flex-col md:flex-row flex-wrap gap-5 px-5 md:px-10 justify-center items-center">
+      <div className="flex flex-col md:flex-row flex-wrap gap-5 px-5 md:px-10 justify-around items-center">
         <AerospacePainting />
         <AerospaceSealing />
       </div>

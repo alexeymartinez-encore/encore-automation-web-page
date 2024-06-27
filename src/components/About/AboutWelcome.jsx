@@ -1,27 +1,27 @@
-import autoImg from "../../assets/automotive/auto_industry.png";
+import aboutImg from "../../assets/about.jpeg";
 
 export default function AboutWelcome() {
   return (
-    <div className="h-full w-full flex justify-around px-40 py-20 bg-gray-100 border-0">
-      <div className="flex flex-col justify-between pb-0 pr-20">
-        {/* <h1 className="text-lg font-light opacity-50 ">About Us</h1> */}
-        <h3 className="text-5xl font-normal pb-2 text-blue-600">
-          Advancing Automated Systems and Services.
-        </h3>
-        {/* <hr className="border-red-500 my-5"></hr> */}
-        <h3 className="pb-5 text-xl font-thin py-5">
-          At Encore, we are dedicated to customer satisfaction through advancing
-          automated systems and services, specializing in paint and powder
-          applications, material dispensing, and vision-aided robotics.
-        </h3>
-        <button
-          className=" bg-blue-500 border text-white py-5 rounded-md hover:bg-blue-400
-                         hover:text-white transform duration-500"
-        >
-          Learn More
-        </button>
+    <div className="h-full w-full flex flex-wrap justify-around items-center px-40 py-20  border-0">
+      <div className="flex flex-col gap-5 w-[30rem] ">
+        <h6 className="font-bold text-sm text-blue-500">
+          ENCORE AUTOMATION'S CULTURE
+        </h6>
+        <h1 className="font-bold text-7xl">Automate your success</h1>
+        <p className="font-thin">
+          At Encore, we are dedicated to advancing automated systems and
+          services, specializing in paint and powder applications, material
+          dispensing, and vision-aided robotics. Our commitment to customer
+          satisfaction drives us to deliver innovative solutions that enhance
+          efficiency and precision in every project we undertake.
+        </p>
       </div>
-      <img src={autoImg} className=" rounded-md shadow-lg h-80" />
+      <div>
+        <img
+          src={aboutImg}
+          className=" rounded-full shadow-xl h-[30rem] w-[30rem] object-cover "
+        />
+      </div>
     </div>
   );
 }

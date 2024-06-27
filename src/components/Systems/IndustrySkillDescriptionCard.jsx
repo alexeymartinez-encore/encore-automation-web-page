@@ -1,6 +1,6 @@
 export default function IndustrySkillDescriptionCard({ title, description }) {
   return (
-    <div className="flex flex-col md:w-[23rem] justify-center  rounded-sm  transform duration-300 ">
+    <div className="flex flex-col md:w-[20rem] justify-center  rounded-sm  transform duration-300 ">
       <h1 className="text-2xl text-blue-500 font-light py-5 mb-3 text-center bg-gray-200 ">
         {title}
       </h1>
