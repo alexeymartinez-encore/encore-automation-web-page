@@ -11,6 +11,7 @@ export default function AutomotiveSealing() {
         title="tesa Tape"
         desc="Encore utilizes patent-pending technology for the automatic application of
              tesa Tape to body drain holes."
+        path="/systems/automotive/tesa-tape"
       />
       <SystemDescription
         img={sealingImg}
@@ -25,6 +26,7 @@ export default function AutomotiveSealing() {
         support structures, safeties, and controls. Encore has the expertise to optimally specify, configure, 
         layout, simulate, engineer and design, assemble and test, install, commission, process tune, train, and 
         service systems for these applications and materials using various equipment options."
+        path="/systems/automotive/sealer-application"
       />
       <SystemDescription
         img={purfoamImg}
@@ -35,6 +37,7 @@ export default function AutomotiveSealing() {
         foam applicators, hose dress out and management, automated tip cleaners, foam dispense mixing and
         dispense systems, and bulk delivery systems. Additionally, we provide system controls with operator
         GUI for shot information and timing."
+        path="/systems/automotive/pur-foam"
       />
     </div>
   );

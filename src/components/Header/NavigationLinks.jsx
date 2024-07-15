@@ -11,7 +11,7 @@ export default function NavigationLinks() {
       <NavLink to="/about" className={navStyle} end>
         Company
       </NavLink>
-      <NavLink to="/systems" className={navStyle}>
+      <NavLink to="/systems/automotive" className={navStyle}>
         Systems
       </NavLink>
       <NavLink to="/support" className={navStyle}>

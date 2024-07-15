@@ -18,6 +18,7 @@ export default function AutomotiveFeatherDuster() {
         servo-controlled or manually adjusted mechanisms. We also manufacture
         Ostrich feather rolls in-house and supply replacements for existing
         systems."
+        path="/systems/automotive/feather-duster-and-blow-offs"
       />
       <SystemDescription
         img={swordBrush}
@@ -26,6 +27,7 @@ export default function AutomotiveFeatherDuster() {
          standard sanding equipment to handle the full exterior surfaces of vehicles and their components. Our systems
           feature automatic paper changers for efficient replacement and validation, integrated dust removal systems to 
           clear residual materials, and automatic tool change capabilities for added flexibility in the sanding process."
+        path="/systems/automotive/sword-brush"
       />
       {/* <SystemDescription
         img={blowoffImg}
@@ -48,6 +50,7 @@ export default function AutomotiveFeatherDuster() {
          standard sanding equipment to handle the full exterior surfaces of vehicles and their components. Our systems
           feature automatic paper changers for efficient replacement and validation, integrated dust removal systems to 
           clear residual materials, and automatic tool change capabilities for added flexibility in the sanding process."
+        path="/systems/automotive/sanding-and-buffing"
       />
       <SystemDescription
         img={waterBlasting}
@@ -56,6 +59,7 @@ export default function AutomotiveFeatherDuster() {
          standard sanding equipment to handle the full exterior surfaces of vehicles and their components. Our systems
           feature automatic paper changers for efficient replacement and validation, integrated dust removal systems to 
           clear residual materials, and automatic tool change capabilities for added flexibility in the sanding process."
+        path="/systems/automotive/water-blasting"
       />
     </div>
   );

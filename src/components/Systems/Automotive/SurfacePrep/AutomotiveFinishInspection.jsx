@@ -15,6 +15,7 @@ export default function AutomotiveFinishInspection() {
         requirements. Our fully robotic systems offer multiple configurations for required measurements,
         with both contact and non-contact capabilities. We provide single-layer and multi-layer film thickness
         measurements."
+        path="/systems/automotive/thickness-wavescan-color"
       />
       <SystemDescription
         img={defectDetectionImg}
@@ -29,6 +30,7 @@ export default function AutomotiveFinishInspection() {
          robotic defect marking systems also feature multiple configurations based on production rate and vehicle 
          size and can be located downstream from the defect detection system with line tracking capability. 
          The system includes an applicator and fluid delivery system for the marking material."
+        path="/systems/automotive/defect-detection"
       />
       <SystemDescription
         img={eagleEye}
@@ -42,6 +44,7 @@ export default function AutomotiveFinishInspection() {
         unaffected by vibration or conveyor changes. With complete industrialization, J3D Vision has gained 
         significant experience and patented their technology in Spain, with a pending patent in Europe. 
         Their inspection technology is adaptable to various surfaces, parts, or conditions."
+        path="/systems/automotive/eagle-eye-tci"
       />
       <SystemDescription
         img={automatedDefectMarking}
@@ -53,6 +56,7 @@ export default function AutomotiveFinishInspection() {
         Additionally, it uses polish to mark defect locations, providing clear and visible indications for 
         further inspection or rework. This innovative cell streamlines the defect marking process, significantly 
         improving overall efficiency and product quality in manufacturing environments."
+        path="/systems/automotive/automated-defect-marking-cell"
       />
     </div>
   );

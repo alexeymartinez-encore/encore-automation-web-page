@@ -1,4 +1,6 @@
-export default function SectionDescription({ title, desc, img }) {
+import { Link } from "react-router-dom";
+
+export default function SectionDescription({ title, desc, img, path }) {
   return (
     <div className="flex flex-col p-5 rounded-sm text-center hover:shadow-md transform duration-300 mb-5">
       <h1 className="text-4xl text-blue-500 font-light py-5 my-3 bg-gray-100">
@@ -11,9 +13,12 @@ export default function SectionDescription({ title, desc, img }) {
         <div className="sticky bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white via-white to-transparent pointer-events-none"></div>
       </div>
 
-      <button className="bg-blue-500 text-white py-3 px-10 rounded-sm my-3 hover:bg-blue-400 transform duration-300">
+      <Link
+        to={path}
+        className="bg-blue-500 text-white py-3 px-10 rounded-sm my-3 hover:bg-blue-400 transform duration-300"
+      >
         Learn More
-      </button>
+      </Link>
     </div>
   );
 }

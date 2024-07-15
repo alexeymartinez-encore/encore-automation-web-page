@@ -4,37 +4,48 @@ import RootLayout from "./pages/Root";
 
 import "./App.css";
 import AboutPage from "./pages/About";
-import SystemsPage from "./pages/Systems";
-import SupportPage from "./pages/Support";
-import CareersPage from "./pages/Careers";
-import EmployeePortalPage from "./pages/EmployePortal";
 import SystemsRootLayout from "./pages/SystemsRoot";
+import SystemsAutomotive from "./components/Systems/Automotive/SystemsAutomotive";
+import AutomotiveProductDetail from "./components/Systems/Automotive/AutomotiveProductDetail";
 import AerospacePage from "./pages/Aerospace";
 import GeneralIndustryPage from "./pages/GeneralIndustry";
-import SystemsAutomotive from "./components/Systems/Automotive/SystemsAutomotive";
+import SupportPage from "./pages/Support";
+import CareersRootLayout from "./pages/CareersRoot";
+import CareersPage from "./pages/Careers";
+import OpenPositionsPage from "./pages/OpenPositions";
+import EmployeePortalPage from "./pages/EmployePortal";
+// import EmployeePortalPage from "./pages/EmployeePortal";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <RootLayout></RootLayout>,
+    element: <RootLayout />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "/about", element: <AboutPage /> },
+      { path: "about", element: <AboutPage /> },
       {
-        path: "/systems",
+        path: "systems",
         element: <SystemsRootLayout />,
         children: [
-          { index: true, element: <SystemsAutomotive /> },
-          { path: "/systems/aerospace", element: <AerospacePage /> },
+          { path: "automotive", element: <SystemsAutomotive /> },
           {
-            path: "/systems/general-industry",
-            element: <GeneralIndustryPage />,
+            path: "automotive/:automotiveProductId",
+            element: <AutomotiveProductDetail />,
           },
+          { path: "aerospace", element: <AerospacePage /> },
+          { path: "general-industry", element: <GeneralIndustryPage /> },
         ],
       },
-      { path: "/support", element: <SupportPage /> },
-      { path: "/careers", element: <CareersPage /> },
-      { path: "/employee-portal", element: <EmployeePortalPage /> },
+      { path: "support", element: <SupportPage /> },
+      {
+        path: "careers",
+        element: <CareersRootLayout />,
+        children: [
+          { index: true, element: <CareersPage /> },
+          { path: "open-positions", element: <OpenPositionsPage /> },
+        ],
+      },
+      { path: "employee-portal", element: <EmployeePortalPage /> },
     ],
   },
 ]);
