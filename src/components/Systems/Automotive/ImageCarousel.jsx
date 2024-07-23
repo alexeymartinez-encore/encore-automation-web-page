@@ -24,6 +24,7 @@ export default function ImageCarousel({ imgs }) {
       spaceBetween={50}
       // slidesPerView={3}
       centeredSlides={true}
+      loop={true}
       autoplay={{
         delay: 3500,
         disableOnInteraction: false,

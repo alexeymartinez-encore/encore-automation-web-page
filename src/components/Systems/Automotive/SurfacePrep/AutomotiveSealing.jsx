@@ -1,7 +1,8 @@
 import SystemDescription from "../../SystemDescription";
-import tesaTape from "../../../../assets/automotive/tesaTape.png";
+import tesaTape from "../../../../assets/automotive/tesaTapeCobot.jpeg";
 import sealingImg from "../../../../assets/automotive/sealer.jpeg";
 import purfoamImg from "../../../../assets/automotive/purfoam.png";
+import skivingImg from "../../../../assets/automotive/skiving.png";
 
 export default function AutomotiveSealing() {
   return (
@@ -38,6 +39,16 @@ export default function AutomotiveSealing() {
         dispense systems, and bulk delivery systems. Additionally, we provide system controls with operator
         GUI for shot information and timing."
         path="/systems/automotive/pur-foam"
+      />
+      <SystemDescription
+        img={skivingImg}
+        title="Automated Skiving"
+        desc="Encore Automation has developed its own Skiving Tool to help reduce manpower and increase repeatability. 
+        The skive, which can be attached to a smart gun and is retractable, is particularly useful for reaching 
+        hard-to-access areas. Additionally, Encore Automation employs a skive cleaning mechanism between jobs 
+        to ensure the skive is clean for each vehicle. This tool is especially effective for windshield flanges 
+        and tail lamps, enhancing the efficiency and precision of the skiving process."
+        path="/systems/automotive/skiving"
       />
     </div>
   );
