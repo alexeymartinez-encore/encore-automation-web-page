@@ -39,7 +39,7 @@ export default function CareerForm() {
         <select
           name="options"
           id="options"
-          className=" h-[3rem] w-[15rem]  border border-blue-500 bg-transparent text-gray-400 rounded-sm text-center"
+          className=" h-[3rem] w-[15rem] shadow-sm bg-white text-gray-400 rounded-sm text-center"
         >
           <option value="position">Position</option>
           <option value="me">Mechanical Engineer</option>
@@ -72,12 +72,12 @@ export default function CareerForm() {
           accept="*"
           multiple
           onChange={fileSelectedHandler}
-          className=" w-[15rem] h-[3rem] py-2 rounded-sm text-center my-1 text-gray-400"
+          className=" w-[15rem] h-[3rem] py-2 rounded-sm text-center my-1 text-gray-400  "
         />
       </div>
       <button
         type="submit"
-        className="bg-blue-500 text-white px-5 py-3 rounded-sm"
+        className="bg-blue-500 text-white px-20 py-3 rounded-sm hover:bg-blue-400 duration-500"
       >
         Submit
       </button>

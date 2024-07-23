@@ -29,20 +29,6 @@ export default function AutomotiveFeatherDuster() {
           clear residual materials, and automatic tool change capabilities for added flexibility in the sanding process."
         path="/systems/automotive/sword-brush"
       />
-      {/* <SystemDescription
-        img={blowoffImg}
-        title="Blow Off"
-        desc="Encore specializes in engineering and designing standard machines and
-          robot-mounted assemblies, offering a wide range of custom blow-off
-          systems for various vehicle and product sizes. These systems use
-          high-velocity, often electrostatically charged air to remove dirt and
-          particles from surfaces before painting. Options include stationary or
-          robotic configurations, high/low volume and velocity air, compressed
-          or fan-driven air, PC or PLC-based visualization systems with
-          graphical user interfaces, and clean wall or in-booth designs.
-          Additionally, dirt collection can be managed via vacuum or booth
-          collection systems."
-      /> */}
       <SystemDescription
         img={SHSander}
         title="Sanding/Buffing"
