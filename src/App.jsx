@@ -14,6 +14,8 @@ import CareersRootLayout from "./pages/CareersRoot";
 import CareersPage from "./pages/Careers";
 import OpenPositionsPage from "./pages/OpenPositions";
 import EmployeePortalPage from "./pages/EmployePortal";
+import AerospaceProductDetail from "./components/Systems/Aerospace/AerospaceProductDetail";
+import GeneralIndustryProductDetail from "./components/Systems/GeneralIndustry/GeneralIndustryProductDetail";
 // import EmployeePortalPage from "./pages/EmployeePortal";
 
 const router = createBrowserRouter([
@@ -33,7 +35,15 @@ const router = createBrowserRouter([
             element: <AutomotiveProductDetail />,
           },
           { path: "aerospace", element: <AerospacePage /> },
+          {
+            path: "aerospace/:aerospaceProductId",
+            element: <AerospaceProductDetail />,
+          },
           { path: "general-industry", element: <GeneralIndustryPage /> },
+          {
+            path: "general-industry/:generalIndustryProductId",
+            element: <GeneralIndustryProductDetail />,
+          },
         ],
       },
       { path: "support", element: <SupportPage /> },

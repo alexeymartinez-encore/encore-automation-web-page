@@ -1,14 +1,14 @@
 import { useParams } from "react-router-dom";
-import ProductItem from "./ProductItem";
-import { automotive_systems } from "../../util/automotive-systems";
+import ProductItem from "../Automotive/ProductItem";
+import { aerospace_systems } from "../../util/aerospace-systems";
 
-export default function AutomotiveProductDetail() {
+export default function AerospaceProductDetail() {
   const params = useParams();
-  const itemId = params.automotiveProductId; // route identifier
+  const itemId = params.aerospaceProductId; // route identifier
   console.log(itemId);
 
-  const item = automotive_systems.filter((system) => system.id === itemId);
-  console.log(automotive_systems);
+  const item = aerospace_systems.filter((system) => system.id === itemId);
+  console.log(aerospace_systems);
   console.log(item);
 
   if (item.length === 1) {

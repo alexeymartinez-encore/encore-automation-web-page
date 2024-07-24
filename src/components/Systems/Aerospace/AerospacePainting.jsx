@@ -14,6 +14,7 @@ export default function AerospacePainting() {
             atomizers, integrating vision systems for precision. Our services
             ensure optimal performance from design to commissioning and
             training."
+        path="/systems/aerospace/painting"
       />
       <IndustrySkillImageCard img={aeroPainting} />
     </IndustrySkillCard>

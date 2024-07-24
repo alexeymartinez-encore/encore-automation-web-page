@@ -14,6 +14,7 @@ export default function GeneralIndustryInspectionMarking() {
         basecoats, clearcoats, and multi-component paints. We use advanced methods like electrostatic 
         guns and rotary atomizers, integrating vision systems for precision. Our services ensure optimal 
         performance from design to commissioning and training."
+        path="/systems/general-industry/inspection-marking"
       />
     </IndustrySkillCard>
   );

@@ -16,6 +16,7 @@ export default function AerospaceSealing() {
             configurations for required measurements, with both contact and
             non-contact capabilities. We provide single-layer and multi-layer
             film thickness measurements."
+        path="/systems/aerospace/sealing"
       />
     </IndustrySkillCard>
   );

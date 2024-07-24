@@ -25,6 +25,7 @@ export default function AerospaceSurfacePrep() {
           components and parts, and seamlessly transitions to sanding without tool changes. Compatible with 
           various cleaners, including alkaline and water, the system integrates vision features for precise part 
           location and offsetting."
+          path="/systems/aerospace/scrub"
         />
         <SystemDescription
           img={aeroRinse}
@@ -37,6 +38,7 @@ export default function AerospaceSurfacePrep() {
            pre-mixed and ride along with the robotic system or be piped to a central rinse supply distribution 
            system. The Encore rinse assembly can also include an air blow off assembly to help dry the 
            surface after the rinse cycle or blow down the surface after sanding operations."
+          path="/systems/aerospace/rinse"
         />
         <SystemDescription
           img={aeroSand}
@@ -46,6 +48,7 @@ export default function AerospaceSurfacePrep() {
           efficient replacement and validation, and integrates dust removal systems for a clean process. With 
           automatic tool change capabilities, the system offers flexibility for additional processes. Integrated 
           vision systems enhance precision by locating and offsetting parts using reference features."
+          path="/systems/aerospace/sanding"
         />
       </div>
     </div>

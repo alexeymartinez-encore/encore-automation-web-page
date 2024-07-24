@@ -19,7 +19,7 @@ export default function AutomotiveFinishInspection() {
       />
       <SystemDescription
         img={defectDetectionImg}
-        title="Defect Detection"
+        title="Defect Detection and Marking"
         desc="Encore's defect detection system uses a Micro-Epsilon reflectCONTROL sensor, based on phase
          measuring deflectometry, for robotic defect detection on the full exterior surface of automotive 
          vehicles and their components. Our fully robotic defect detection systems offer multiple configurations 
@@ -30,7 +30,7 @@ export default function AutomotiveFinishInspection() {
          robotic defect marking systems also feature multiple configurations based on production rate and vehicle 
          size and can be located downstream from the defect detection system with line tracking capability. 
          The system includes an applicator and fluid delivery system for the marking material."
-        path="/systems/automotive/defect-detection"
+        path="/systems/automotive/defect-detection-marking"
       />
       <SystemDescription
         img={eagleEye}
@@ -46,7 +46,7 @@ export default function AutomotiveFinishInspection() {
         Their inspection technology is adaptable to various surfaces, parts, or conditions."
         path="/systems/automotive/eagle-eye-tci"
       />
-      <SystemDescription
+      {/* <SystemDescription
         img={automatedDefectMarking}
         title="Automated Defect Marking Cell"
         desc="The Automated Defect Marking Cell is an advanced system designed to enhance manufacturing quality 
@@ -57,7 +57,7 @@ export default function AutomotiveFinishInspection() {
         further inspection or rework. This innovative cell streamlines the defect marking process, significantly 
         improving overall efficiency and product quality in manufacturing environments."
         path="/systems/automotive/automated-defect-marking-cell"
-      />
+      /> */}
     </div>
   );
 }

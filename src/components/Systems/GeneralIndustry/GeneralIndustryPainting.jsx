@@ -20,6 +20,7 @@ export default function GeneralIndustryPainting() {
           desc="Encore's water blasting systems use proven off-the-shelf technology 
               for cleaning carriers and components, accommodating a wide variety of configurations 
               and water blasting requirements."
+          path="/systems/general-industry/liquid-painting"
         />
         <SystemDescription
           img={powderPaint}
@@ -33,6 +34,7 @@ export default function GeneralIndustryPainting() {
            Our Dense Phase Equipment and Multi-Powder Integrator enable easy and quick color changes 
            for multi-powder systems. Additionally, we have extensive experience integrating and retrofitting 
            systems with various machines, robots, and powder brands."
+          path="/systems/general-industry/powder-painting"
         />
       </div>
     </div>

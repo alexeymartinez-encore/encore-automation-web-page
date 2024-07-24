@@ -459,4 +459,277 @@ export const automotive_systems = [
       },
     ],
   },
+  {
+    id: "sealer-application",
+    title: "Sealer Application",
+    text: "Encore Automation’s extensive knowledge and experience base allows it to approach a wide range of sealing projects and services from a strong foundation. Their expertise encompasses various sealer application approaches, including interior seam, finesse, LASD, hem, and UBC. Encore integrates advanced vision systems, featuring both fixed and robot-mounted cameras, into their solutions. These systems also include seam quality vision systems with interactive quality display monitors to assist operators in inspection and repair tasks. Furthermore, Encore offers turnkey systems that encompass safety fencing, tip dress windows, tip clean-off assemblies, support structures, safeties, and controls.",
+    subText:
+      "Encore’s comprehensive system knowledge and experience enable them to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service systems for the aforementioned applications and materials. Utilizing many of the above equipment options, they ensure high-quality and efficient sealing solutions tailored to specific project requirements, enhancing overall productivity and reliability in sealing processes.",
+    imgs: [
+      { id: "img-1", img: imgThirtySix },
+      { id: "img-2", img: imgThirtySix },
+      { id: "img-3", img: imgThirtySix },
+      { id: "img-4", img: imgThirtySix },
+      { id: "img-5", img: imgThirtySix },
+    ],
+    benefitsTitle: "Benefits of Using Encore's Sealer Systems.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Extensive Knowledge and Experience",
+        benefitDescription:
+          "Encore Automation’s extensive knowledge and experience in various sealer application approaches, including interior seam, finesse, LASD, hem, and UBC, allow them to tackle a wide range of sealing projects with confidence and expertise.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Advanced Vision Systems",
+        benefitDescription:
+          "Integrating advanced vision systems, with both fixed and robot-mounted cameras, including seam quality vision systems with interactive quality display monitors, assists operators in inspection and repair tasks, ensuring high-quality results.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Turnkey Systems",
+        benefitDescription:
+          "Encore offers turnkey systems that encompass safety fencing, tip dress windows, tip clean-off assemblies, support structures, safeties, and controls, providing a complete and integrated solution for sealing applications.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Optimal System Configuration",
+        benefitDescription:
+          "Their comprehensive system knowledge enables them to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service systems, ensuring solutions are tailored to specific project requirements.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "High-Quality and Efficient Sealing",
+        benefitDescription:
+          "By utilizing a variety of equipment options and advanced technologies, Encore ensures high-quality and efficient sealing solutions, enhancing overall productivity and reliability in sealing processes.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Comprehensive Project Management",
+        benefitDescription:
+          " Encore provides end-to-end services, from initial specification and design to installation and training, ensuring seamless implementation and support for their sealing solutions, leading to improved project outcomes.",
+      },
+    ],
+  },
+  {
+    id: "pur-foam",
+    title: "PUR-Foam",
+    text: "Encore has the system knowledge and experience to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service PUR foam application systems. Their expertise includes fully robotic foam application and manual application systems. Encore's comprehensive approach ensures that each system is tailored to meet specific project requirements, enhancing efficiency and reliability in foam application processes.",
+    subText:
+      "Encore’s PUR foam application systems include advanced components such as foam applicators, hose dress-out and management, automated tip cleaners, foam dispense mixing and dispense systems, and bulk delivery systems. They also offer system controls with operator graphical user interfaces (GUIs) for shot information and timing, ensuring precise and consistent application. This holistic approach allows Encore to deliver high-quality, efficient, and user-friendly PUR foam application solutions.",
+    imgs: [
+      { id: "img-1", img: imgThirtySix },
+      { id: "img-2", img: imgThirtySix },
+      { id: "img-3", img: imgThirtySix },
+      { id: "img-4", img: imgThirtySix },
+      { id: "img-5", img: imgThirtySix },
+    ],
+    benefitsTitle: "Benefits of Using Encore's PUR-Foam Systems.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Extensive Knowledge and Experience",
+        benefitDescription:
+          "Encore has the system knowledge and experience to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service PUR foam application systems, ensuring each system meets specific project requirements.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Tailored Solutions",
+        benefitDescription:
+          "Their comprehensive approach ensures that each system is tailored to meet specific project requirements, enhancing efficiency and reliability in foam application processes.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Advanced Components",
+        benefitDescription:
+          "Encore’s PUR foam application systems include advanced components such as foam applicators, hose dress-out and management, automated tip cleaners, foam dispense mixing and dispense systems, and bulk delivery systems, ensuring efficient and reliable operation.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Robotic and Manual Application",
+        benefitDescription:
+          "Their expertise includes fully robotic foam application and manual application systems, providing flexibility to suit different project needs and environments.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "System Controls with GUIs",
+        benefitDescription:
+          "System controls with operator graphical user interfaces (GUIs) for shot information and timing ensure precise and consistent application, enhancing user experience and operational control.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Holistic Project Management",
+        benefitDescription:
+          "Encore’s holistic approach, from system specification and design to installation and training, ensures high-quality, efficient, and user-friendly PUR foam application solutions, leading to improved project outcomes and customer satisfaction.",
+      },
+    ],
+  },
+  {
+    id: "thickness-wavescan-color",
+    title: "Thickness Wavescan Color",
+    text: "Encore’s quality measurement systems utilize off-the-shelf proven technology for thickness, wave scan, and color measurements of exterior surfaces of vehicles and components. These systems are designed to cater to a wide variety of configurations and requirements, ensuring precise and reliable measurements. Encore offers fully robotic systems with multiple configurations tailored to meet the specific needs of required measurements, enhancing the accuracy and efficiency of the quality control process.",
+    subText:
+      "Encore’s measurement systems feature both contact and non-contact measurement capabilities, providing flexibility in application. They can perform single-layer or multiple-layer film thickness measurements, ensuring comprehensive quality assessment for various types of surfaces and coatings. This advanced technology allows Encore to deliver high-quality, precise, and adaptable quality measurement solutions for the automotive industry.",
+    imgs: [
+      { id: "img-1", img: imgThirtySix },
+      { id: "img-2", img: imgThirtySix },
+      { id: "img-3", img: imgThirtySix },
+      { id: "img-4", img: imgThirtySix },
+      { id: "img-5", img: imgThirtySix },
+    ],
+    benefitsTitle:
+      "Benefits of Using Encore's Thickness Wavescan Color System.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Proven Technology",
+        benefitDescription:
+          "Utilizing off-the-shelf proven technology for thickness, wave scan, and color measurements, Encore ensures precise and reliable measurements of exterior surfaces of vehicles and components.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Wide Variety of Configurations",
+        benefitDescription:
+          "Designed to cater to a wide variety of configurations and requirements, Encore’s systems offer fully robotic solutions with multiple configurations tailored to meet specific measurement needs, enhancing the accuracy and efficiency of the quality control process.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Contact and Non-Contact Measurement Capabilities",
+        benefitDescription:
+          "Featuring both contact and non-contact measurement capabilities, Encore’s systems provide flexibility in application, ensuring comprehensive quality assessment for various types of surfaces and coatings.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Comprehensive Quality Assessment",
+        benefitDescription:
+          "The ability to perform single-layer or multiple-layer film thickness measurements ensures a thorough and detailed quality assessment, accommodating different surface and coating requirements.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "High-Quality and Adaptable Solutions",
+        benefitDescription:
+          "The advanced technology employed in Encore’s measurement systems allows for the delivery of high-quality, precise, and adaptable quality measurement solutions, meeting the stringent demands of the automotive industry.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Enhanced Accuracy and Efficiency",
+        benefitDescription:
+          "Encore’s systems enhance the accuracy and efficiency of the quality control process, ensuring consistent and reliable measurement results, ultimately improving the overall quality of the final product.",
+      },
+    ],
+  },
+  {
+    id: "defect-detection-marking",
+    title: "Defect Detection & Marking",
+    text: "In addition to defect detection, Encore offers an automatic defect marking system to apply marking material on the defect location as determined by the detection system. These fully robotic marking systems also offer multiple configurations based on production rate and vehicle size and can be located downstream from the defect detection system with line tracking capability. The system includes an applicator and fluid delivery system for the marking material, ensuring precise and efficient marking of detected defects, thus facilitating subsequent repair processes and enhancing overall quality control.",
+    subText:
+      "Encore’s PUR foam application systems include advanced components such as foam applicators, hose dress-out and management, automated tip cleaners, foam dispense mixing and dispense systems, and bulk delivery systems. They also offer system controls with operator graphical user interfaces (GUIs) for shot information and timing, ensuring precise and consistent application. This holistic approach allows Encore to deliver high-quality, efficient, and user-friendly PUR foam application solutions.",
+    imgs: [
+      { id: "img-1", img: imgThirtySix },
+      { id: "img-2", img: imgThirtySix },
+      { id: "img-3", img: imgThirtySix },
+      { id: "img-4", img: imgThirtySix },
+      { id: "img-5", img: imgThirtySix },
+    ],
+    benefitsTitle:
+      "Benefits of Using Encore's Defect Detection & Marking Systems.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Defect Detection & Marking",
+        benefitDescription:
+          "Utilizing the Micro-Epsilon reflectCONTROL sensor based on phase measuring deflectometry, Encore's system provides highly accurate robotic defect detection for the full exterior surface of automotive vehicles and components, detecting paint defects as small as 0.3 mm.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Multiple Configurations",
+        benefitDescription:
+          "These fully robotic systems offer multiple configurations depending on production rate and vehicle size, ensuring adaptability to different manufacturing environments and requirements.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Comprehensive Coverage",
+        benefitDescription:
+          "Model-specific simulations ensure 100% coverage with minor overlap, optimizing the detection process and ensuring no defects are missed.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Consistent and Reliable Detection",
+        benefitDescription:
+          "The system provides automatic defect recognition on all colors, ensuring consistent and reliable detection across various vehicle surfaces and enhancing quality control.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Automatic Defect Marking System",
+        benefitDescription:
+          "Encore's automatic defect marking system applies marking material precisely on the defect location as determined by the detection system, facilitating subsequent repair processes and improving overall quality control.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Integrated System for Enhanced Quality Control",
+        benefitDescription:
+          "The marking systems, located downstream from the defect detection system with line tracking capability, ensure seamless integration and efficiency in marking detected defects, including an applicator and fluid delivery system for precise and efficient marking.",
+      },
+    ],
+  },
+  {
+    id: "eagle-eye-tci",
+    title: "Eagle Eye TCI",
+    text: "The Eagle Eye – TCI system is designed to have the minimum interference with the productive system of the plant. During the inspection it is not necessary for the bodies to stop, register to a fixed position or slow down their speed. ",
+    subText:
+      "The system also allows the simultaneous inspection of two consecutive bodies, it is not necessary that the inspection of the first one has finished for the inspection of the second to start. In addition, the inspection process adapts to the normal work flow of the line, allowing stops and starts during the inspection, and changes in the line speed.",
+    imgs: [
+      { id: "img-1", img: imgThirtySix },
+      { id: "img-2", img: imgThirtySix },
+      { id: "img-3", img: imgThirtySix },
+      { id: "img-4", img: imgThirtySix },
+      { id: "img-5", img: imgThirtySix },
+    ],
+    benefitsTitle: "Benefits of Using Eagle Eye Top Coat Inspection.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Non-Stop Inspection Process",
+        benefitDescription:
+          "The Eagle Eye – TCI system stands out for its ability to inspect vehicle bodies without stopping or removing them from the production line, ensuring a seamless and efficient inspection process.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Minimal Maintenance and Easy Integration",
+        benefitDescription:
+          "Controlled by a single PC responsible for treatment, calculation, and control, the system requires minimal maintenance and is easy to integrate with the plant's cybersecurity protocols.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Simultaneous Inspection Capability",
+        benefitDescription:
+          "The system allows for the simultaneous inspection of two consecutive car bodies, ensuring high throughput and efficiency by starting the inspection of the second body before the first one finishes.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Adaptability to Production Flow",
+        benefitDescription:
+          "Designed to adapt to the normal workflow of the production line, the system accommodates stops, starts, and changes in line speed, providing flexibility and minimal interference with the production process.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Customizable Design",
+        benefitDescription:
+          "Each Eagle Eye – TCI is specifically designed for the bodies manufactured at each plant, with customizable dimensions to fit different types of vehicles, ensuring versatile application across various production lines.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "High Speed and Accuracy",
+        benefitDescription:
+          "With a standard inspection speed of 10-15 m/min (up to 150 jobs per hour), the system can be adjusted to higher speeds, maintaining high accuracy and expanding its capabilities to match production demands.",
+      },
+      {
+        benefitId: "benefit-7",
+        benefitTitle: "Quick Start-Up and High Detection Rate",
+        benefitDescription:
+          "After installation and calibration, the system achieves a high level of defect detection, with a final start-up and adjustment period of around 10 weeks, ensuring rapid deployment and effectiveness in quality control.",
+      },
+    ],
+  },
 ];
