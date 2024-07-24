@@ -39,7 +39,7 @@ export default function LandingPage() {
         </p>
         <div className="flex flex-col md:flex-row z-50 md:my-5 md:gap-5 2xl:my-10">
           <LinkButton link="/about">Company</LinkButton>
-          <LinkButton link="/systems">Systems</LinkButton>
+          <LinkButton link="/systems/automotive">Systems</LinkButton>
           <LinkButton link="/support">Support</LinkButton>
         </div>
         <JumpArrow />
