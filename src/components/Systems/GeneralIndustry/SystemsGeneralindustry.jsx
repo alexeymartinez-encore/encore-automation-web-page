@@ -5,6 +5,7 @@ import SystemsHeading from "../SystemsHeading";
 import GeneralIndustryInspectionMarking from "./GeneralIndustryInspectionMarking";
 import GeneralIndustryPainting from "./GeneralIndustryPainting";
 import GeneralIndustrySealing from "./GeneralIndustrySealing";
+import GeneralIndustrySurfacePreparation from "./GeneralIndustrySurfacePreparation";
 
 export default function SystemsGeneralIndustry() {
   return (
@@ -27,6 +28,7 @@ export default function SystemsGeneralIndustry() {
         <GeneralIndustryInspectionMarking />
       </div>
       <GeneralIndustryPainting />
+      <GeneralIndustrySurfacePreparation />
     </div>
   );
 }

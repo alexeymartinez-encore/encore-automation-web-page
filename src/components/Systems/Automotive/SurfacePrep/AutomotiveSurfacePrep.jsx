@@ -15,7 +15,7 @@ export default function AutomotiveSurfacePrep() {
             vehicle parts and bodies to ensure optimal adhesion of coatings,
             paints, or other treatments. This process is crucial for achieving
             high-quality finishes, enhancing durability, and preventing defects.
-            Encore offers surface finishes systems as following:"
+            Encore offers surface finishes systems as following"
         />
         <AutomotiveFeatherDuster />
       </div>

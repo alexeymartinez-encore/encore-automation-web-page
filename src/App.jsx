@@ -16,6 +16,7 @@ import OpenPositionsPage from "./pages/OpenPositions";
 import EmployeePortalPage from "./pages/EmployePortal";
 import AerospaceProductDetail from "./components/Systems/Aerospace/AerospaceProductDetail";
 import GeneralIndustryProductDetail from "./components/Systems/GeneralIndustry/GeneralIndustryProductDetail";
+import Hypothesis from "./components/util/Hypothesis";
 // import EmployeePortalPage from "./pages/EmployeePortal";
 
 const router = createBrowserRouter([
@@ -61,7 +62,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <Hypothesis>
+      <RouterProvider router={router} />
+    </Hypothesis>
+  );
 }
 
 export default App;
