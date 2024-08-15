@@ -8,14 +8,12 @@ export default function AutomotiveFinishInspection() {
   return (
     <div className="flex flex-row gap-10 justify-start flex-wrap">
       <SystemDescription
-        img={scannerImg}
-        title="Thickness/Wavescan/Color"
-        desc="Encore quality measurement systems use proven off-the-shelf technology to measure thickness, 
-        wave scan, and color of vehicle exteriors and components, accommodating various configurations and 
-        requirements. Our fully robotic systems offer multiple configurations for required measurements,
-        with both contact and non-contact capabilities. We provide single-layer and multi-layer film thickness
-        measurements."
-        path="/systems/automotive/thickness-wavescan-color"
+        img={eagleEye}
+        title="Sealer Inspection"
+        desc="Encore Automation's partner, J3D Vision, specializes in implementing in-line inspection systems for
+        100% production, focusing on unconventional inspections and automating visual inspection processes for 
+        automatic feedback. Their primary application is inspecting paint defects on car bodies. "
+        path="/systems/automotive/eagle-eye-tci"
       />
       <SystemDescription
         img={defectDetectionImg}
@@ -32,7 +30,7 @@ export default function AutomotiveFinishInspection() {
          The system includes an applicator and fluid delivery system for the marking material."
         path="/systems/automotive/defect-detection-marking"
       />
-      <SystemDescription
+      {/* <SystemDescription
         img={eagleEye}
         title="Eagle Eye Top Coat Inspection"
         desc="Encore Automation's partner, J3D Vision, specializes in implementing in-line inspection systems for
@@ -45,8 +43,8 @@ export default function AutomotiveFinishInspection() {
         significant experience and patented their technology in Spain, with a pending patent in Europe. 
         Their inspection technology is adaptable to various surfaces, parts, or conditions."
         path="/systems/automotive/eagle-eye-tci"
-      />
-      {/* <SystemDescription
+      /> */}
+      <SystemDescription
         img={automatedDefectMarking}
         title="Automated Defect Marking Cell"
         desc="The Automated Defect Marking Cell is an advanced system designed to enhance manufacturing quality 
@@ -57,7 +55,17 @@ export default function AutomotiveFinishInspection() {
         further inspection or rework. This innovative cell streamlines the defect marking process, significantly 
         improving overall efficiency and product quality in manufacturing environments."
         path="/systems/automotive/automated-defect-marking-cell"
-      /> */}
+      />
+      <SystemDescription
+        img={scannerImg}
+        title="Thickness/Wavescan/Color"
+        desc="Encore quality measurement systems use proven off-the-shelf technology to measure thickness, 
+        wave scan, and color of vehicle exteriors and components, accommodating various configurations and 
+        requirements. Our fully robotic systems offer multiple configurations for required measurements,
+        with both contact and non-contact capabilities. We provide single-layer and multi-layer film thickness
+        measurements."
+        path="/systems/automotive/thickness-wavescan-color"
+      />
     </div>
   );
 }

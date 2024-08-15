@@ -1,3 +1,4 @@
+import Card from "../../../UI/Card";
 import SectionHeading from "../../SectionHeading";
 import AutomotiveFeatherDuster from "./AutomotiveFeatherDuster";
 import AutomotiveFinishInspection from "./AutomotiveFinishInspection";
@@ -7,7 +8,38 @@ import AutomotiveSealing from "./AutomotiveSealing";
 export default function AutomotiveSurfacePrep() {
   return (
     <div className="px-0 py-5 flex flex-col">
-      <div className="my-3">
+      <Card>
+        <SectionHeading
+          title="Sealing"
+          desc="
+          In the automotive automation industry, sealing involves applying materials to vehicle joints, seams, 
+          and gaps to prevent the ingress of water, air, dust, and noise, enhancing the vehicle's durability and comfort. 
+          This process is typically automated to ensure precision and consistency. "
+        />
+        <AutomotiveSealing />
+      </Card>
+      <Card>
+        <SectionHeading
+          title="Primer"
+          desc="In the automotive automation industry, primer application involves applying a preparatory coating to vehicle
+          surfaces before the final paint layer is applied. This process enhances paint adhesion, ensures uniform coverage,
+          and provides protection against corrosion, increasing the vehicle's durability and finish quality.
+          Primer application is typically automated to ensure accuracy, efficiency, and consistent quality across 
+          the vehicle's surfaces."
+        />
+        <AutomotivePainting />
+      </Card>
+      {/* <Card>
+        <SectionHeading
+          title="Primer"
+          desc="
+          In the automotive automation industry, sealing involves applying materials to vehicle joints, seams, 
+          and gaps to prevent the ingress of water, air, dust, and noise, enhancing the vehicle's durability and comfort. 
+          This process is typically automated to ensure precision and consistency. "
+        />
+        <AutomotiveSealing />
+      </Card> */}
+      <Card>
         <SectionHeading
           title="Surface Preparation"
           desc="In the automotive automation industry, surface preparation refers to
@@ -18,42 +50,27 @@ export default function AutomotiveSurfacePrep() {
             Encore offers surface finishes systems as following"
         />
         <AutomotiveFeatherDuster />
-      </div>
-      {/* <hr className="py-5"></hr> */}
-      <div className="my-3">
+      </Card>
+      <Card>
         <SectionHeading
-          title="Painting"
-          desc="In the automotive automation industry, painting involves the
-          application of coatings to vehicle parts and bodies to provide both
-          aesthetic appeal and protection against environmental factors. This
-          process is highly automated to ensure consistency, quality, and
-          efficiency."
+          title="Topcoat"
+          desc="In the automotive automation industry, topcoat application involves applying the final layer of paint to
+          the vehicle’s exterior surfaces, giving it its color and glossy finish. This layer not only defines the vehicle's
+          appearance but also provides protection against environmental elements, such as UV rays, moisture, and chemicals.
+          Topcoat application is typically automated to ensure an even, flawless finish while optimizing efficiency and
+          reducing material waste across the production process."
         />
         <AutomotivePainting />
-      </div>
-      {/* <hr className="py-5"></hr> */}
-      <div className="my-3">
+      </Card>
+      <Card>
         <SectionHeading
-          title="Sealing"
-          desc="
-          In the automotive automation industry, sealing involves applying materials to vehicle joints, seams, 
-          and gaps to prevent the ingress of water, air, dust, and noise, enhancing the vehicle's durability and comfort. 
-          This process is typically automated to ensure precision and consistency. "
-        />
-        <AutomotiveSealing />
-      </div>
-      {/* <hr className="py-5"></hr> */}
-
-      <div className="my-3">
-        <SectionHeading
-          title="Finish Inspection"
-          desc="
-          In the automotive automation industry, finish inspection is the process of examining the final appearance 
-          and quality of a vehicle's painted and coated surfaces to ensure they meet stringent standards. 
-          This process is crucial for maintaining high-quality finishes and customer satisfaction."
+          title="Quality Control"
+          desc="In the automotive automation industry, quality control ensures that vehicles meet strict performance, 
+          safety, and appearance standards. Automated systems use sensors and cameras to detect defects and assess components,
+          ensuring consistency, reducing errors, and improving production efficiency."
         />
         <AutomotiveFinishInspection />
-      </div>
+      </Card>
     </div>
   );
 }
