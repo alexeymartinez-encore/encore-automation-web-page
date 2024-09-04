@@ -8,7 +8,7 @@ export default function AboutWelcome() {
           ENCORE AUTOMATION'S CULTURE
         </h6>
         <h1 className="font-bold text-7xl">Automate your success</h1>
-        <p className="font-thin text-xl">
+        <p className="font-thin text-2xl">
           At Encore, we are dedicated to advancing automated systems and
           services, specializing in paint and powder applications, material
           dispensing, and vision-aided robotics. Our commitment to customer

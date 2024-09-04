@@ -1,4 +1,4 @@
-import Footer from "../UI/Footer";
+// import Footer from "../UI/Footer";
 import CareerFit from "./CareerFit";
 import CareerBenefits from "./CareersBenefits";
 import CareersCta from "./CareersCta";
@@ -11,7 +11,7 @@ export default function CareersLanding() {
       <CareersCta />
       <CareerFit />
       <CareerBenefits />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

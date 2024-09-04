@@ -231,7 +231,7 @@ export const automotive_systems = [
   },
   {
     id: "liquid-painting",
-    title: "Liquid Painting",
+    title: "Liquid Primer Painting",
     text: "Encore Automation's extensive knowledge and experience in painting systems provide a solid foundation for tackling various projects and services. Their expertise spans a wide range of paint application materials, including solventborne and waterborne primers, basecoats, and clearcoats, as well as multiple component paints. They are proficient in various paint application approaches, such as electrostatic guns or electrostatic rotary atomizers, direct charge waterborne applicators, and air atomized guns.",
     subText:
       "Encore works with all major brands of paint application equipment suppliers and paint robot or paint machine suppliers, offering turnkey automated paint booths. Their comprehensive system knowledge and experience enable them to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service systems for the aforementioned applications and materials using a variety of equipment options. This holistic approach ensures high-quality and efficient painting solutions tailored to specific project requirements.",
@@ -343,7 +343,7 @@ export const automotive_systems = [
   },
   {
     id: "skiving",
-    title: "Skiving",
+    title: "Automated Skiving",
     text: "Encore Automation has developed its own Skiving Tool to help reduce manpower and increase repeatability. The skive, which can be attached to a smart gun and is retractable, is particularly useful for reaching hard-to-access areas. Additionally, Encore Automation employs a skive cleaning mechanism between jobs to ensure the skive is clean for each vehicle. This tool is especially effective for windshield flanges and tail lamps, enhancing the efficiency and precision of the skiving process.",
     subText:
       "This advanced tool also comes with an air-knife cleaning device, which further ensures cleanliness and performance. Moreover, it can be equipped with a robotic vision add-on that checks the correct positioning of the tool, thereby enhancing accuracy and reducing errors. These features make the Encore Automation Skiving Tool a comprehensive solution for skiving needs in automotive applications.",
@@ -461,7 +461,7 @@ export const automotive_systems = [
   },
   {
     id: "sealer-application",
-    title: "Sealer Application",
+    title: "Sealing & LASD Application",
     text: "Encore Automation’s extensive knowledge and experience base allows it to approach a wide range of sealing projects and services from a strong foundation. Their expertise encompasses various sealer application approaches, including interior seam, finesse, LASD, hem, and UBC. Encore integrates advanced vision systems, featuring both fixed and robot-mounted cameras, into their solutions. These systems also include seam quality vision systems with interactive quality display monitors to assist operators in inspection and repair tasks. Furthermore, Encore offers turnkey systems that encompass safety fencing, tip dress windows, tip clean-off assemblies, support structures, safeties, and controls.",
     subText:
       "Encore’s comprehensive system knowledge and experience enable them to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service systems for the aforementioned applications and materials. Utilizing many of the above equipment options, they ensure high-quality and efficient sealing solutions tailored to specific project requirements, enhancing overall productivity and reliability in sealing processes.",
