@@ -1,8 +1,32 @@
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 export default function SystemDescription({ img, title, desc, path }) {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  const variants = {
+    hidden: { opacity: 0, y: 100 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
-    <div
+    <motion.div
+      ref={ref}
+      variants={variants}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
       className="flex flex-col bg-white shadow-lg md:shadow-none md:hover:shadow-lg justify-between
                 p-5 rounded-md transform duration-300 md:w-[25rem] my-5"
     >
@@ -22,6 +46,6 @@ export default function SystemDescription({ img, title, desc, path }) {
       >
         Learn More
       </Link>
-    </div>
+    </motion.div>
   );
 }

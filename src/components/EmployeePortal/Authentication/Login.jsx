@@ -25,7 +25,7 @@ export default function Login() {
       </button>
       <p className="text-sm">
         Don't have an account?{" "}
-        <Link className="text-blue-500 text-sm" to="">
+        <Link className="text-blue-500 text-sm" to="/employee-portal/signup">
           Sign Up
         </Link>
       </p>

@@ -1,3 +1,4 @@
+import { useAnimation, motion } from "framer-motion";
 import BenefitCard from "./BenefitCard";
 import {
   faClock,
@@ -10,10 +11,35 @@ import {
   faMoneyCheckDollar,
   faTooth,
 } from "@fortawesome/free-solid-svg-icons";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 export default function CareerBenefits() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  const variant = {
+    hidden: { opacity: 0, y: 200 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="flex flex-col justify-center items-center mx-5 md:mx-20 my-20">
+    <motion.div
+      ref={ref}
+      variants={variant}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
+      className="flex flex-col justify-center items-center mx-5 md:mx-20 my-20"
+    >
       <h1 className="text-4xl md:text-start text-center mb-3 md:my-0">
         Benefits Our Employees Love
       </h1>
@@ -40,6 +66,6 @@ export default function CareerBenefits() {
           <BenefitCard icon={faGraduationCap} text="Tuition Reimbursement" />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

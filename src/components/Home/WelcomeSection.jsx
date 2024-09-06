@@ -1,10 +1,8 @@
 import powderCoating from "../../assets/video/PowderCoating.mov";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
 import LinkButton from "./LinkButton";
 import JumpArrow from "./JumpArrow";
+import WelcomeSectionText from "./WelcomeSectionText";
 
 export default function LandingPage() {
   return (
@@ -24,24 +22,22 @@ export default function LandingPage() {
                    md:items-start md:mx-10"
         style={{ height: "95vh" }}
       >
-        <h1
-          className="z-10 text-white text-3xl font-medium text-center 
-                      md:text-start md:text-6xl 2xl:text-8xl "
+        <WelcomeSectionText />
+        <motion.div
+          initial={{ opacity: 0, x: -200 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{
+            delay: 0.2,
+            duration: 0.7,
+            type: "spring",
+            stiffness: 40,
+          }}
+          className="flex flex-col md:flex-row z-50 md:my-5 md:gap-5 2xl:my-10"
         >
-          Turn-key Robotic Automation System Supplier Integrator.
-        </h1>
-        <p
-          className="z-50 text-white text-lg font-thin my-5 text-center
-                      md:text-2xl 2xl:text-4xl "
-        >
-          Supplying robotic systems in the Automotive, Aerospace and General
-          industry markets.
-        </p>
-        <div className="flex flex-col md:flex-row z-50 md:my-5 md:gap-5 2xl:my-10">
           <LinkButton link="/about">Company</LinkButton>
           <LinkButton link="/systems/automotive">Systems</LinkButton>
           <LinkButton link="/support">Support</LinkButton>
-        </div>
+        </motion.div>
         <JumpArrow />
       </div>
     </div>

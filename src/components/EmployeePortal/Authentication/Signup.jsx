@@ -28,7 +28,7 @@ export default function Signup() {
       </button>
       <p className="text-sm">
         Already have an account?{" "}
-        <Link className="text-blue-500 text-sm" to="">
+        <Link className="text-blue-500 text-sm" to="/employee-portal/login">
           Login
         </Link>
       </p>

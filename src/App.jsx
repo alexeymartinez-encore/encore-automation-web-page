@@ -17,6 +17,9 @@ import EmployeePortalPage from "./pages/EmployePortal";
 import AerospaceProductDetail from "./components/Systems/Aerospace/AerospaceProductDetail";
 import GeneralIndustryProductDetail from "./components/Systems/GeneralIndustry/GeneralIndustryProductDetail";
 import Hypothesis from "./components/util/Hypothesis";
+import EmployeePortalRootLayout from "./pages/EmployeePortalRoot";
+import Login from "./components/EmployeePortal/Authentication/Login";
+import Signup from "./components/EmployeePortal/Authentication/Signup";
 // import EmployeePortalPage from "./pages/EmployeePortal";
 
 const router = createBrowserRouter([
@@ -56,7 +59,15 @@ const router = createBrowserRouter([
           { path: "open-positions", element: <OpenPositionsPage /> },
         ],
       },
-      { path: "employee-portal", element: <EmployeePortalPage /> },
+      {
+        path: "employee-portal",
+        element: <EmployeePortalRootLayout />,
+        children: [
+          { index: true, element: <EmployeePortalPage /> },
+          { path: "login", element: <Login /> },
+          { path: "signup", element: <Signup /> },
+        ],
+      },
     ],
   },
 ]);

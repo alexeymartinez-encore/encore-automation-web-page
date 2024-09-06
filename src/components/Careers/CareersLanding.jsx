@@ -1,17 +1,20 @@
-// import Footer from "../UI/Footer";
+import Welcome from "../Shared/Welcome";
 import CareerFit from "./CareerFit";
 import CareerBenefits from "./CareersBenefits";
 import CareersCta from "./CareersCta";
-import CareersWelcome from "./CareersWelcome";
+import careersImg from "../../assets/career/careers.webp";
 
 export default function CareersLanding() {
   return (
     <div className="px-0">
-      <CareersWelcome />
+      <Welcome
+        title="Join Our Growing Team"
+        subtitle="Careers"
+        img={careersImg}
+      />
       <CareersCta />
       <CareerFit />
       <CareerBenefits />
-      {/* <Footer /> */}
     </div>
   );
 }

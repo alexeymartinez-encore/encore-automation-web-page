@@ -1,9 +1,33 @@
+import { useInView } from "react-intersection-observer";
 import asi from "../../assets/credentials/fanuc2.png";
 import iso from "../../assets/credentials/iso.png";
 import iso14 from "../../assets/credentials/iso14001.png";
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
 export default function CredentialsSection() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  const variants = {
+    hidden: { opacity: 0, y: 200 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div
+    <motion.div
+      ref={ref}
+      variants={variants}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
       className="flex flex-col items-center justify-around relative mx-10 my-20 2xl:mx-40"
       id="certifications"
     >
@@ -30,6 +54,6 @@ export default function CredentialsSection() {
           sustainability and social responsibility within the company.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -1,6 +1,33 @@
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+
 export default function SupportSectionHeading() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  const variant = {
+    hidden: { opacity: 0, y: 200 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="text-center bg-gray-100 p-10 rounded-sm font-thin">
+    <motion.div
+      ref={ref}
+      variants={variant}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
+      className="text-center bg-gray-100 p-10 rounded-sm font-thin"
+    >
       <h1 className="text-xl md:text-3xl text-blue-500 font-light mb-3">
         Encore Automation offers a comprehensive suite of Lifecycle Management
         Services
@@ -14,6 +41,6 @@ export default function SupportSectionHeading() {
         diagnostics support, and spare parts services, ensuring your automation
         systems operate at peak performance.
       </p>
-    </div>
+    </motion.div>
   );
 }

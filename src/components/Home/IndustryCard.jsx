@@ -1,10 +1,39 @@
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
-export default function IndustryCard({ img, link, services, title }) {
+export default function IndustryCard({
+  img,
+  link,
+  services,
+  title,
+  animationDirection,
+}) {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  const boxVariants = {
+    hidden: { opacity: 0, x: animationDirection },
+    visible: { opacity: 1, x: 0 },
+  };
   return (
-    <div
+    <motion.div
+      ref={ref}
+      variants={boxVariants}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
       className="relative group flex flex-col items-center justify-center mx-5 my-5 shadow-xl
-                    md:mx-60 md:my-10"
+                    md:mx-60 md:my-0"
     >
       <Link to={link} className="relative text-white border-gray-500 ">
         <img
@@ -12,7 +41,6 @@ export default function IndustryCard({ img, link, services, title }) {
           className="shadow-lg rounded z-10
           group:hover:bg-black "
         />
-
         <div
           className="absolute inset-0 flex flex-col items-center justify-center opacity-0  bg-black bg-opacity-50 rounded transform duration-300
                         group-hover:opacity-100"
@@ -48,6 +76,6 @@ export default function IndustryCard({ img, link, services, title }) {
           </h1>
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }

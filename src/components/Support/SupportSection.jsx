@@ -3,10 +3,36 @@ import { faWrench } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
 import { faLaptopFile } from "@fortawesome/free-solid-svg-icons";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 export default function SupportSection() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  const variant = {
+    hidden: { opacity: 0, y: 200 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center md:justify-between my-0 flex-wrap mb-10">
+    <motion.div
+      ref={ref}
+      variants={variant}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 1, type: "spring", stiffness: 50 }}
+      className="flex flex-col md:flex-row justify-center items-center md:justify-between my-0 flex-wrap mb-10"
+    >
       <SupportTypeCard
         title="Emergency Service "
         subtitle="24 / 7 Support"
@@ -41,6 +67,6 @@ export default function SupportSection() {
         icon={faGear}
         // cta="Request Parts"
       />
-    </div>
+    </motion.div>
   );
 }

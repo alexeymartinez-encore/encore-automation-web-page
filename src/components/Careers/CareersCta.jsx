@@ -1,8 +1,34 @@
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 export default function CareersCta() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  const variant = {
+    hidden: { opacity: 0, y: 200 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="flex flex-col justify-center items-center px-5 md:px-20 py-10 font-thin">
+    <motion.div
+      ref={ref}
+      variants={variant}
+      initial="hidden"
+      animate={controls}
+      transition={{ delay: 0.5, duration: 1, type: "spring", stiffness: 50 }}
+      className="flex flex-col justify-center items-center px-5 md:px-20 py-10 font-thin"
+    >
       <p className="py-5 md:py-3 md:text-lg">
         We believe that our success is driven by the passion and expertise of
         our talented team. We are dedicated to fostering a collaborative and
@@ -27,6 +53,6 @@ export default function CareersCta() {
       >
         Career Opportunities
       </Link>
-    </div>
+    </motion.div>
   );
 }

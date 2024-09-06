@@ -6,7 +6,7 @@ export default function FooterLinkSections() {
     <div className=" flex flex-col md:flex-row gap-10 md:gap-40 2xl:gap-60">
       <div className="flex flex-col">
         <FooterTitle title="Solution" />
-        <FooterLink link="/systems" title="Automotive" />
+        <FooterLink link="/systems/automotive" title="Automotive" />
         <FooterLink link="/systems/aerospace" title="Aerospace" />
         <FooterLink link="/systems/general-industry" title="General Industry" />
       </div>
