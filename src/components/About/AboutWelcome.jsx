@@ -36,7 +36,7 @@ export default function AboutWelcome() {
           initial={{ opacity: 0, y: -200 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.5,
+            delay: 0.7,
             duration: 0.7,
             type: "spring",
             stiffness: 50,
@@ -61,7 +61,7 @@ export default function AboutWelcome() {
         </motion.div>
       </div>
       <motion.div
-        initial={{ opacity: 0, x: -200 }}
+        initial={{ opacity: 0, x: 200 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7, type: "spring", stiffness: 50 }}
       >
