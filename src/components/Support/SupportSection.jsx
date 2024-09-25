@@ -40,6 +40,8 @@ export default function SupportSection() {
         nature of automation systems, our professionals are always prepared to respond 
         swiftly and effectively to any emergency."
         icon={faWrench}
+        link="tel:+12482530200"
+        btnText="Call Us"
         // cta="Call us"
       />
       <SupportTypeCard
@@ -48,7 +50,8 @@ export default function SupportSection() {
         desc="Customers can easily create service tickets, allowing our experienced support team to promptly
         and efficiently resolve issues, ensuring minimal disruption and optimal system performance."
         icon={faTicket}
-        // cta="Create Ticket"
+        link="mailto:service@encoreautomation.com"
+        btnText="Email Us"
       />
       <SupportTypeCard
         title="Remote Diagnostic Support"
@@ -57,6 +60,7 @@ export default function SupportSection() {
         immediate assistance, minimizing downtime and maximizing system reliability."
         icon={faLaptopFile}
         // cta="Call us"
+        btnText="More"
       />
       <SupportTypeCard
         title="Spare Parts"
@@ -65,8 +69,20 @@ export default function SupportSection() {
         nature of automation systems, our professionals are always prepared to respond 
         swiftly and effectively to any emergency."
         icon={faGear}
+        link="mailto:SPartsService@encoreautomation.com"
+        btnText="Email Us"
+
         // cta="Request Parts"
       />
     </motion.div>
   );
+}
+
+{
+  /* <Link
+to="tel:+12482530200"
+className="text-xs hover:text-gray-200 transition duration-300"
+>
+(248)-253-0200
+</Link> */
 }

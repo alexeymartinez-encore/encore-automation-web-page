@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import encoreOffice from "../../assets/encore-office.png";
-
 import FooterLinkSections from "./FooterLinksSection";
 import FooterContactSection from "./FooterContactSection";
 import { useAnimation, motion } from "framer-motion";

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import encoreOffice from "../../assets/encore-office.png";
 
 export default function FooterLink({ link, title }) {
   return (
