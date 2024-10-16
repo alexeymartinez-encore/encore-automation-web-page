@@ -1,6 +1,6 @@
 import SystemDescription from "../../SystemDescription";
-import tesaTape from "../../../../assets/automotive/tesaTapeCobot.jpeg";
-import sealingImg from "../../../../assets/automotive/sealer.jpeg";
+import tesaTape from "../../../../assets/automotive/tesa_Tape/tesaTapeCobot.jpeg";
+import sealingImg from "../../../../assets/automotive/sealing_lasd/sealer.jpeg";
 import purfoamImg from "../../../../assets/automotive/purfoam.png";
 import skivingImg from "../../../../assets/automotive/skiving.png";
 

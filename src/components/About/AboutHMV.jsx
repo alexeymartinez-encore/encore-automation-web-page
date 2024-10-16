@@ -41,7 +41,7 @@ export default function AboutHMV() {
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
         <StatementCard
           icon={faBullseye}
-          titleColor="text-green-500"
+          titleColor="text-blue-500"
           title="Mission"
           description="Our mission is to innovate through comprehensive engineering and
             design, from concept to installation, ensuring seamless integration
@@ -65,7 +65,7 @@ export default function AboutHMV() {
         />
         <StatementCard
           icon={faTimeline}
-          titleColor="text-green-500"
+          titleColor="text-purple-500"
           title="History"
           description="Encore Automation was founded in 2006 by a core group of specialists
             from Haden Automation Group and AEG Paint Systems, bringing years of

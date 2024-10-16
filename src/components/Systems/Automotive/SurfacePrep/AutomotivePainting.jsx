@@ -17,7 +17,7 @@ export default function AutomotivePainting() {
            Our Dense Phase Equipment and Multi-Powder Integrator enable easy and quick color changes 
            for multi-powder systems. Additionally, we have extensive experience integrating and retrofitting 
            systems with various machines, robots, and powder brands."
-        path="/systems/automotive/powder-painting"
+        path="/systems/automotive/powder-application"
       />
       <SystemDescription
         img={powderPaint}
@@ -31,7 +31,7 @@ export default function AutomotivePainting() {
            Our Dense Phase Equipment and Multi-Powder Integrator enable easy and quick color changes 
            for multi-powder systems. Additionally, we have extensive experience integrating and retrofitting 
            systems with various machines, robots, and powder brands."
-        path="/systems/automotive/powder-painting"
+        path="/systems/automotive/powder-distribution"
       />
       <SystemDescription
         img={liquidPaint}

@@ -22,14 +22,14 @@ export default function Footer() {
   }, [controls, inView]);
   return (
     <motion.footer
-      ref={ref}
-      variants={variants}
-      initial="hidden"
-      animate={controls}
-      transition={{ duration: 1, type: "spring", stiffness: 50 }}
+      // ref={ref}
+      // variants={variants}
+      // initial="hidden"
+      // animate={controls}
+      // transition={{ duration: 1, type: "spring", stiffness: 50 }}
       className="px-5 py-5 bg-gray-900 md:px-20 2xl:px-40"
     >
-      <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between text-center text-white py-20">
+      <div className="flex flex-col md:flex-row items-center md:items-start md:justify-around text-center text-white py-20">
         <FooterLinkSections />
         <FooterContactSection />
       </div>

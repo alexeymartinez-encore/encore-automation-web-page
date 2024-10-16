@@ -2,7 +2,7 @@ import featherImg from "../../../../assets/automotive/featherDuster.jpg";
 import blowoffImg from "../../../../assets/automotive/blowoff.jpeg";
 import SHSander from "../../../../assets/automotive/SHSander.jpg";
 import waterBlasting from "../../../../assets/automotive/waterBlasting.png";
-import swordBrush from "../../../../assets/automotive/swordbrush.png";
+import swordBrush from "../../../../assets/automotive/swordbrush/sword_brush_1.png";
 import SystemDescription from "../../SystemDescription";
 
 export default function AutomotiveFeatherDuster() {

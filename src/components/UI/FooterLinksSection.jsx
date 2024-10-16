@@ -24,12 +24,12 @@ export default function FooterLinkSections() {
         <FooterLink link="/careers" title="Careers" />
         <FooterLink link="/" title="Partners" />
       </div>
-      <div className="flex flex-col">
+      {/* <div className="flex flex-col">
         <FooterTitle title="Legal" />
         <FooterLink link="/" title="Claim" />
         <FooterLink link="/" title="Privacy" />
         <FooterLink link="/" title="Terms" />
-      </div>
+      </div> */}
     </div>
   );
 }

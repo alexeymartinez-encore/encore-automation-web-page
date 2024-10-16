@@ -40,7 +40,7 @@ export default function ImageCarousel({ imgs }) {
       <div className=" flex justify-center items-center ">
         {imgs.map((img) => (
           <SwiperSlide key={img.id}>
-            <div className="h-[35rem] w-[40rem] py-10">
+            <div className="h-[35rem] w-[50rem] py-10">
               <img className="object-cover" src={img.img} />
             </div>
           </SwiperSlide>

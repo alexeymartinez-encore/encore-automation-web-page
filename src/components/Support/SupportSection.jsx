@@ -12,7 +12,7 @@ export default function SupportSection() {
   const { ref, inView } = useInView({ threshold: 0.2 });
 
   const variant = {
-    hidden: { opacity: 0, y: 200 },
+    hidden: { opacity: 0, y: 100 },
     visible: { opacity: 1, y: 0 },
   };
 
@@ -31,17 +31,17 @@ export default function SupportSection() {
       initial="hidden"
       animate={controls}
       transition={{ duration: 1, type: "spring", stiffness: 50 }}
-      className="flex flex-col md:flex-row justify-center items-center md:justify-between my-0 flex-wrap mb-10"
+      className="flex flex-col md:flex-row justify-center items-center md:justify-around my-0 flex-wrap mb-10"
     >
       <SupportTypeCard
         title="Emergency Service "
         subtitle="24 / 7 Support"
-        desc=" We take emergency service very seriously. Understanding the critical 
+        desc="We take emergency service very seriously. Understanding the critical 
         nature of automation systems, our professionals are always prepared to respond 
         swiftly and effectively to any emergency."
         icon={faWrench}
         link="tel:+12482530200"
-        btnText="Call Us"
+        btnText="(248)-253-0200"
         // cta="Call us"
       />
       <SupportTypeCard
@@ -53,7 +53,7 @@ export default function SupportSection() {
         link="mailto:service@encoreautomation.com"
         btnText="Email Us"
       />
-      <SupportTypeCard
+      {/* <SupportTypeCard
         title="Remote Diagnostic Support"
         subtitle="24 / 7 Support"
         desc="We offer advanced remote diagnostics, monitoring and troubleshooting issues in real-time to provide
@@ -61,7 +61,7 @@ export default function SupportSection() {
         icon={faLaptopFile}
         // cta="Call us"
         btnText="More"
-      />
+      /> */}
       <SupportTypeCard
         title="Spare Parts"
         subtitle="24 / 7 Support"

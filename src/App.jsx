@@ -16,6 +16,7 @@ import EmployeePortalPage from "./pages/EmployePortal";
 import AerospaceProductDetail from "./components/Systems/Aerospace/AerospaceProductDetail";
 import GeneralIndustryProductDetail from "./components/Systems/GeneralIndustry/GeneralIndustryProductDetail";
 import Hypothesis from "./components/util/Hypothesis";
+import OpenPositionDetail from "./components/Careers/CareerOportunitties/OpenPositionDetail";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         children: [
           { index: true, element: <CareersPage /> },
           { path: "open-positions", element: <OpenPositionsPage /> },
+          {
+            path: "open-positions/:positionId",
+            element: <OpenPositionDetail />,
+          },
         ],
       },
       {

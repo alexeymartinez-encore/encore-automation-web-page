@@ -3,6 +3,7 @@ import Footer from "../UI/Footer";
 import SupportSection from "./SupportSection";
 import SupportSectionHeading from "./SupportSectionHeading";
 import supportImg from "../../assets/support/supportPage.webp";
+import RemoteSupportSection from "./RemoteSupportSection";
 
 export default function SupportLanding() {
   return (
@@ -15,6 +16,7 @@ export default function SupportLanding() {
       <div className="flex flex-col gap-20 px-5 md:px-20 py-10">
         <SupportSectionHeading />
         <SupportSection />
+        <RemoteSupportSection />
       </div>
       <Footer />
     </div>

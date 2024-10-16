@@ -4,7 +4,7 @@ import imgThree from "../../assets/automotive/bloOff.jpeg";
 import imgFour from "../../assets/automotive/featherDuster.jpg";
 import imgFive from "../../assets/automotive/7RollSystem.png";
 
-import imgSix from "../../assets/automotive/swordbrush.png";
+import imgSix from "../../assets/automotive/swordbrush/sword_brush_1.png";
 
 import imgEleven from "../../assets/automotive/SHSander.jpg";
 

@@ -4,6 +4,7 @@ import AutomotiveFeatherDuster from "./AutomotiveFeatherDuster";
 import AutomotiveFinishInspection from "./AutomotiveFinishInspection";
 import AutomotivePainting from "./AutomotivePainting";
 import AutomotiveSealing from "./AutomotiveSealing";
+import AutomotiveTopCoat from "./AutomotiveTopCoat";
 
 export default function AutomotiveSurfacePrep() {
   return (
@@ -53,14 +54,14 @@ export default function AutomotiveSurfacePrep() {
       </Card>
       <Card>
         <SectionHeading
-          title="Topcoat"
+          title="Topcoat & Other Dispensing"
           desc="In the automotive automation industry, topcoat application involves applying the final layer of paint to
           the vehicle’s exterior surfaces, giving it its color and glossy finish. This layer not only defines the vehicle's
           appearance but also provides protection against environmental elements, such as UV rays, moisture, and chemicals.
           Topcoat application is typically automated to ensure an even, flawless finish while optimizing efficiency and
           reducing material waste across the production process."
         />
-        <AutomotivePainting />
+        <AutomotiveTopCoat />
       </Card>
       <Card>
         <SectionHeading

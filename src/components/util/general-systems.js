@@ -4,7 +4,7 @@ import imgThree from "../../assets/automotive/bloOff.jpeg";
 import imgFour from "../../assets/automotive/featherDuster.jpg";
 import imgFive from "../../assets/automotive/7RollSystem.png";
 
-import imgSix from "../../assets/automotive/swordbrush.png";
+import imgSix from "../../assets/automotive/swordbrush/sword_brush_1.png";
 
 import imgEleven from "../../assets/automotive/SHSander.jpg";
 
@@ -14,7 +14,7 @@ import imgTwentyOne from "../../assets/automotive/liquidPainting.jpg";
 
 import imgTwentySix from "../../assets/automotive/powderPainting.jpeg";
 import imgThirtyOne from "../../assets/automotive/skiving.png";
-import imgThirtySix from "../../assets/automotive/tesaTapeCobot.jpeg";
+import imgThirtySix from "../../assets/automotive/tesa_Tape/tesaTapeCobot.jpeg";
 
 export const general_systems = [
   {

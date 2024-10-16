@@ -3,9 +3,9 @@ import CareerForm from "./CareerForm";
 
 export default function CareerOpportunities() {
   return (
-    <div className="flex justify-around my-10">
+    <div className="flex flex-col  my-10 px-20">
       <AvailablePositions />
-      <CareerForm />
+      {/* <CareerForm /> */}
     </div>
   );
 }

@@ -38,7 +38,7 @@ export default function EmployeeActions() {
         title="Personal Portal"
         subtitle="Link to Timesheet"
         icon={faRightToBracket}
-        link="login"
+        link="http://localhost:5174/employee-portal/login"
       />
       <ActionCard
         title="Webmail"

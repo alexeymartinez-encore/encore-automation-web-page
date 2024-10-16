@@ -4,17 +4,49 @@ import imgThree from "../../assets/automotive/bloOff.jpeg";
 import imgFour from "../../assets/automotive/featherDuster.jpg";
 import imgFive from "../../assets/automotive/7RollSystem.png";
 
-import imgSix from "../../assets/automotive/swordbrush.png";
-
 import imgEleven from "../../assets/automotive/SHSander.jpg";
-
-import imgSixteen from "../../assets/automotive/waterBlasting.png";
 
 import imgTwentyOne from "../../assets/automotive/liquidPainting.jpg";
 
 import imgTwentySix from "../../assets/automotive/powderPainting.jpeg";
-import imgThirtyOne from "../../assets/automotive/skiving.png";
-import imgThirtySix from "../../assets/automotive/tesaTapeCobot.jpeg";
+import skiving_1 from "../../assets/automotive/skiving/skiving_1.png";
+import skiving_2 from "../../assets/automotive/skiving/skiving_2.png";
+import skiving_4 from "../../assets/automotive/skiving/skiving_4.png";
+import skiving_5 from "../../assets/automotive/skiving/skiving_5.png";
+import skiving_6 from "../../assets/automotive/skiving/skiving_6.png";
+import skiving_7 from "../../assets/automotive/skiving/skiving_7.png";
+import skiving_8 from "../../assets/automotive/skiving/skiving_8.png";
+import skiving_9 from "../../assets/automotive/skiving/skiving_9.png";
+import skiving_10 from "../../assets/automotive/skiving/skiving_10.png";
+
+import sealer_1 from "../../assets/automotive/sealing_lasd/sealer.jpeg";
+import sealer_2 from "../../assets/automotive/sealing_lasd/hem_flange_sealing_1.png";
+import sealer_3 from "../../assets/automotive/sealing_lasd/hem_flange_sealing_2.png";
+import sealer_4 from "../../assets/automotive/sealing_lasd/interior_ubs_ubs_sealer.jpg";
+import sealer_5 from "../../assets/automotive/sealing_lasd/isd_sealer_modular_build.jpg";
+import sealer_6 from "../../assets/automotive/sealing_lasd/sealer_modular_build.png";
+import sealer_7 from "../../assets/automotive/sealing_lasd/sealer_seam_verification.jpg";
+
+import tesa_tape_3 from "../../assets/automotive/tesa_Tape/tesaTapeCobot_3.png";
+import tesa_tape_5 from "../../assets/automotive/tesa_Tape/tesaTapeCobot_5.png";
+import tesa_tape_6 from "../../assets/automotive/tesa_Tape/tesaTapeCobot_6.png";
+import tesa_tape_7 from "../../assets/automotive/tesa_Tape/tesaTapeCobot_7.png";
+import tesa_tape_9 from "../../assets/automotive/tesa_Tape/tesaTapeCobot_9.png";
+
+import pur_foam_1 from "../../assets/automotive/purfoam/purfoam_1.jpg";
+import pur_foam_2 from "../../assets/automotive/purfoam/purfoam_2.png";
+
+import sword_brush_1 from "../../assets/automotive/swordbrush/sword_brush_1.png";
+import sword_brush_2 from "../../assets/automotive/swordbrush/sword_brush_2.png";
+import sword_brush_3 from "../../assets/automotive/swordbrush/sword_brush_3.png";
+
+import water_blasting_1 from "../../assets/automotive/co2_cleaning/co2_cleaning_1.png";
+import water_blasting_2 from "../../assets/automotive/co2_cleaning/co2_cleaning_2.png";
+
+import film_wrap_1 from "../../assets/automotive/film_wrap/film_wrap_1.jpg";
+import film_wrap_2 from "../../assets/automotive/film_wrap/film_wrap_2.png";
+import film_wrap_3 from "../../assets/automotive/film_wrap/film_wrap_3.jpg";
+import film_wrap_4 from "../../assets/automotive/film_wrap/film_wrap_4.jpg";
 
 export const automotive_systems = [
   {
@@ -77,11 +109,11 @@ export const automotive_systems = [
     subText:
       "The contact area of the linear brush is flexibly mounted on a pneumatically regulated pressure buffer, allowing it to compensate for uneven surfaces and material thickness variations of up to +/- 2 mm. During continuous operations, a self-cleaning unit regenerates the brushes, using a rotating rack and compressed air nozzles to detach particles both mechanically and pneumatically. These loose particles are then immediately disposed of by a suction system, ensuring efficient and uninterrupted production.",
     imgs: [
-      { id: "img-1", img: imgSix },
-      { id: "img-2", img: imgSix },
-      { id: "img-3", img: imgSix },
-      { id: "img-4", img: imgSix },
-      { id: "img-5", img: imgSix },
+      { id: "img-1", img: sword_brush_1 },
+      { id: "img-2", img: sword_brush_2 },
+      { id: "img-3", img: sword_brush_3 },
+      // { id: "img-4", img: imgSix },
+      // { id: "img-5", img: imgSix },
     ],
     benefitsTitle: "Benefits of Using Sword Brush",
     benefitsCards: [
@@ -183,11 +215,11 @@ export const automotive_systems = [
     subText:
       "Encore's water blasting systems are designed to offer precision and control, allowing operators to adjust pressure and flow rates to meet specific cleaning needs. The integration of automated controls and monitoring systems ensures consistent performance and reduces the need for manual intervention. Additionally, these systems can be equipped with advanced filtration and recycling units to manage water usage efficiently, making the process more environmentally friendly and cost-effective. With a focus on safety and reliability, Encore water blasting systems provide a comprehensive solution for maintaining the cleanliness and integrity of industrial components and carriers.",
     imgs: [
-      { id: "img-1", img: imgSixteen },
-      { id: "img-2", img: imgSixteen },
-      { id: "img-3", img: imgSixteen },
-      { id: "img-4", img: imgSixteen },
-      { id: "img-5", img: imgSixteen },
+      { id: "img-1", img: water_blasting_1 },
+      { id: "img-2", img: water_blasting_2 },
+      // { id: "img-3", img: imgSixteen },
+      // { id: "img-4", img: imgSixteen },
+      // { id: "img-5", img: imgSixteen },
     ],
     benefitsTitle: "Benefits of Using Encore's Water Blasting Systems.",
     benefitsCards: [
@@ -342,17 +374,140 @@ export const automotive_systems = [
     ],
   },
   {
+    id: "powder-application",
+    title: "Powder Application",
+    text: "Encore is a leader in automotive powder systems, offering high-volume powder coating solutions for automotive quality applications, utilizing dilute or dense phase for single or multicolor paints. Their expertise includes powder distribution systems with sieving, mixing, and transport capabilities; powder application systems, either robotic or machine type; and powder collection/reclaim systems, which can be integrated back into distribution and application processes.",
+    subText:
+      "Encore's dense phase technology equipment, from application pumps to transfer pumps, has eliminated most defect-generating elements found in typical dilute phase powder systems. The Encore Dense Phase Equipment and Multi-Powder Integrator provide easy and quick color change capability for multi-powder systems. Encore has extensive experience integrating and retrofitting systems with machines and/or robots, using a variety of types and brands of powder, ensuring efficient and high-quality powder coating processes tailored to specific needs.",
+    imgs: [
+      { id: "img-1", img: imgTwentySix },
+      { id: "img-2", img: imgTwentySix },
+      { id: "img-3", img: imgTwentySix },
+      { id: "img-4", img: imgTwentySix },
+      { id: "img-5", img: imgTwentySix },
+    ],
+    benefitsTitle: "Benefits of Using Encore's Powder Painting Systems.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "High-Volume Powder Coating Solutions",
+        benefitDescription:
+          "Encore offers high-volume powder coating solutions specifically designed for automotive quality applications, ensuring superior finishes and durability.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Versatile Paint Application",
+        benefitDescription:
+          "Utilizes dilute or dense phase for single or multicolor paints, providing versatility to meet diverse project requirements.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Comprehensive Powder Distribution Systems",
+        benefitDescription:
+          "Expertise includes powder distribution systems with sieving, mixing, and transport capabilities, ensuring consistent and efficient powder handling.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Advanced Powder Application Systems",
+        benefitDescription:
+          "Offers both robotic and machine type powder application systems, providing precise and efficient application tailored to specific needs.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Efficient Powder Collection and Reclaim Systems",
+        benefitDescription:
+          "Powder collection/reclaim systems can be integrated back into distribution and application processes, enhancing efficiency and reducing waste.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Innovative Dense Phase Technology",
+        benefitDescription:
+          "Encore's dense phase technology equipment, including application and transfer pumps, eliminates most defect-generating elements found in typical dilute phase powder systems, ensuring high-quality results. Additionally, the Dense Phase Equipment and Multi-Powder Integrator provide easy and quick color change capability for multi-powder systems, increasing productivity and flexibility.",
+      },
+      {
+        benefitId: "benefit-7",
+        benefitTitle: "Extensive Integration and Retrofitting Experience",
+        benefitDescription:
+          "Extensive experience integrating and retrofitting systems with machines and/or robots using various types and brands of powder, ensuring efficient and high-quality powder coating processes tailored to specific needs.",
+      },
+    ],
+  },
+  {
+    id: "powder-distribution",
+    title: "Powder Distribution",
+    text: "Encore is a leader in automotive powder systems, offering high-volume powder coating solutions for automotive quality applications, utilizing dilute or dense phase for single or multicolor paints. Their expertise includes powder distribution systems with sieving, mixing, and transport capabilities; powder application systems, either robotic or machine type; and powder collection/reclaim systems, which can be integrated back into distribution and application processes.",
+    subText:
+      "Encore's dense phase technology equipment, from application pumps to transfer pumps, has eliminated most defect-generating elements found in typical dilute phase powder systems. The Encore Dense Phase Equipment and Multi-Powder Integrator provide easy and quick color change capability for multi-powder systems. Encore has extensive experience integrating and retrofitting systems with machines and/or robots, using a variety of types and brands of powder, ensuring efficient and high-quality powder coating processes tailored to specific needs.",
+    imgs: [
+      { id: "img-1", img: imgTwentySix },
+      { id: "img-2", img: imgTwentySix },
+      { id: "img-3", img: imgTwentySix },
+      { id: "img-4", img: imgTwentySix },
+      { id: "img-5", img: imgTwentySix },
+    ],
+    benefitsTitle: "Benefits of Using Encore's Powder Painting Systems.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "High-Volume Powder Coating Solutions",
+        benefitDescription:
+          "Encore offers high-volume powder coating solutions specifically designed for automotive quality applications, ensuring superior finishes and durability.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Versatile Paint Application",
+        benefitDescription:
+          "Utilizes dilute or dense phase for single or multicolor paints, providing versatility to meet diverse project requirements.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Comprehensive Powder Distribution Systems",
+        benefitDescription:
+          "Expertise includes powder distribution systems with sieving, mixing, and transport capabilities, ensuring consistent and efficient powder handling.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Advanced Powder Application Systems",
+        benefitDescription:
+          "Offers both robotic and machine type powder application systems, providing precise and efficient application tailored to specific needs.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Efficient Powder Collection and Reclaim Systems",
+        benefitDescription:
+          "Powder collection/reclaim systems can be integrated back into distribution and application processes, enhancing efficiency and reducing waste.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "Innovative Dense Phase Technology",
+        benefitDescription:
+          "Encore's dense phase technology equipment, including application and transfer pumps, eliminates most defect-generating elements found in typical dilute phase powder systems, ensuring high-quality results. Additionally, the Dense Phase Equipment and Multi-Powder Integrator provide easy and quick color change capability for multi-powder systems, increasing productivity and flexibility.",
+      },
+      {
+        benefitId: "benefit-7",
+        benefitTitle: "Extensive Integration and Retrofitting Experience",
+        benefitDescription:
+          "Extensive experience integrating and retrofitting systems with machines and/or robots using various types and brands of powder, ensuring efficient and high-quality powder coating processes tailored to specific needs.",
+      },
+    ],
+  },
+  {
     id: "skiving",
     title: "Automated Skiving",
     text: "Encore Automation has developed its own Skiving Tool to help reduce manpower and increase repeatability. The skive, which can be attached to a smart gun and is retractable, is particularly useful for reaching hard-to-access areas. Additionally, Encore Automation employs a skive cleaning mechanism between jobs to ensure the skive is clean for each vehicle. This tool is especially effective for windshield flanges and tail lamps, enhancing the efficiency and precision of the skiving process.",
     subText:
       "This advanced tool also comes with an air-knife cleaning device, which further ensures cleanliness and performance. Moreover, it can be equipped with a robotic vision add-on that checks the correct positioning of the tool, thereby enhancing accuracy and reducing errors. These features make the Encore Automation Skiving Tool a comprehensive solution for skiving needs in automotive applications.",
     imgs: [
-      { id: "img-1", img: imgThirtyOne },
-      { id: "img-2", img: imgThirtyOne },
-      { id: "img-3", img: imgThirtyOne },
-      { id: "img-4", img: imgThirtyOne },
-      { id: "img-5", img: imgThirtyOne },
+      // { id: "img-3", img: skiving_3 },
+      { id: "img-4", img: skiving_4 },
+      { id: "img-5", img: skiving_5 },
+      { id: "img-6", img: skiving_6 },
+      { id: "img-7", img: skiving_7 },
+      { id: "img-8", img: skiving_8 },
+      { id: "img-9", img: skiving_9 },
+      { id: "img-10", img: skiving_10 },
+      { id: "img-1", img: skiving_1 },
+      { id: "img-2", img: skiving_2 },
     ],
     benefitsTitle: "Benefits of Using Encore's Automated Skiving System.",
     benefitsCards: [
@@ -401,11 +556,14 @@ export const automotive_systems = [
     subText:
       "This automated solution significantly reduces manpower and enhances the quality and ergonomics of the process compared to manual operations. By automating the tesa tape application, Encore's system provides a substantial improvement in efficiency and consistency, ensuring proper placement and adherence of tape coverings. This leads to a more streamlined production process and a reduction in ergonomic strain on operators, ultimately improving overall productivity and quality.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: tesa_tape_9 },
+      // { id: "img-2", img: tesa_tape_2 },
+      { id: "img-3", img: tesa_tape_3 },
+      // { id: "img-4", img: tesa_tape_4 },
+      { id: "img-5", img: tesa_tape_5 },
+      { id: "img-6", img: tesa_tape_6 },
+      { id: "img-7", img: tesa_tape_7 },
+      // { id: "img-8", img: tesa_tape_8 },
     ],
     benefitsTitle: "Benefits of Using Encore's tesa Tape System.",
     benefitsCards: [
@@ -466,11 +624,13 @@ export const automotive_systems = [
     subText:
       "Encore’s comprehensive system knowledge and experience enable them to optimally specify, configure, layout, simulate, engineer and design, assemble and test, install, commission, process tune, provide training, and service systems for the aforementioned applications and materials. Utilizing many of the above equipment options, they ensure high-quality and efficient sealing solutions tailored to specific project requirements, enhancing overall productivity and reliability in sealing processes.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: sealer_1 },
+      { id: "img-2", img: sealer_2 },
+      { id: "img-3", img: sealer_3 },
+      { id: "img-4", img: sealer_4 },
+      { id: "img-5", img: sealer_5 },
+      { id: "img-6", img: sealer_6 },
+      { id: "img-7", img: sealer_7 },
     ],
     benefitsTitle: "Benefits of Using Encore's Sealer Systems.",
     benefitsCards: [
@@ -519,11 +679,11 @@ export const automotive_systems = [
     subText:
       "Encore’s PUR foam application systems include advanced components such as foam applicators, hose dress-out and management, automated tip cleaners, foam dispense mixing and dispense systems, and bulk delivery systems. They also offer system controls with operator graphical user interfaces (GUIs) for shot information and timing, ensuring precise and consistent application. This holistic approach allows Encore to deliver high-quality, efficient, and user-friendly PUR foam application solutions.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: pur_foam_1 },
+      { id: "img-2", img: pur_foam_2 },
+      // { id: "img-3", img: imgEleven },
+      // { id: "img-4", img: imgEleven },
+      // { id: "img-5", img: imgEleven },
     ],
     benefitsTitle: "Benefits of Using Encore's PUR-Foam Systems.",
     benefitsCards: [
@@ -572,11 +732,11 @@ export const automotive_systems = [
     subText:
       "Encore’s measurement systems feature both contact and non-contact measurement capabilities, providing flexibility in application. They can perform single-layer or multiple-layer film thickness measurements, ensuring comprehensive quality assessment for various types of surfaces and coatings. This advanced technology allows Encore to deliver high-quality, precise, and adaptable quality measurement solutions for the automotive industry.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: imgEleven },
+      { id: "img-2", img: imgEleven },
+      { id: "img-3", img: imgEleven },
+      { id: "img-4", img: imgEleven },
+      { id: "img-5", img: imgEleven },
     ],
     benefitsTitle:
       "Benefits of Using Encore's Thickness Wavescan Color System.",
@@ -626,11 +786,11 @@ export const automotive_systems = [
     subText:
       "Encore’s PUR foam application systems include advanced components such as foam applicators, hose dress-out and management, automated tip cleaners, foam dispense mixing and dispense systems, and bulk delivery systems. They also offer system controls with operator graphical user interfaces (GUIs) for shot information and timing, ensuring precise and consistent application. This holistic approach allows Encore to deliver high-quality, efficient, and user-friendly PUR foam application solutions.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: imgEleven },
+      { id: "img-2", img: imgEleven },
+      { id: "img-3", img: imgEleven },
+      { id: "img-4", img: imgEleven },
+      { id: "img-5", img: imgEleven },
     ],
     benefitsTitle:
       "Benefits of Using Encore's Defect Detection & Marking Systems.",
@@ -680,11 +840,129 @@ export const automotive_systems = [
     subText:
       "The system also allows the simultaneous inspection of two consecutive bodies, it is not necessary that the inspection of the first one has finished for the inspection of the second to start. In addition, the inspection process adapts to the normal work flow of the line, allowing stops and starts during the inspection, and changes in the line speed.",
     imgs: [
-      { id: "img-1", img: imgThirtySix },
-      { id: "img-2", img: imgThirtySix },
-      { id: "img-3", img: imgThirtySix },
-      { id: "img-4", img: imgThirtySix },
-      { id: "img-5", img: imgThirtySix },
+      { id: "img-1", img: imgEleven },
+      { id: "img-2", img: imgEleven },
+      { id: "img-3", img: imgEleven },
+      { id: "img-4", img: imgEleven },
+      { id: "img-5", img: imgEleven },
+    ],
+    benefitsTitle: "Benefits of Using Eagle Eye Top Coat Inspection.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Non-Stop Inspection Process",
+        benefitDescription:
+          "The Eagle Eye – TCI system stands out for its ability to inspect vehicle bodies without stopping or removing them from the production line, ensuring a seamless and efficient inspection process.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Minimal Maintenance and Easy Integration",
+        benefitDescription:
+          "Controlled by a single PC responsible for treatment, calculation, and control, the system requires minimal maintenance and is easy to integrate with the plant's cybersecurity protocols.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Simultaneous Inspection Capability",
+        benefitDescription:
+          "The system allows for the simultaneous inspection of two consecutive car bodies, ensuring high throughput and efficiency by starting the inspection of the second body before the first one finishes.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Adaptability to Production Flow",
+        benefitDescription:
+          "Designed to adapt to the normal workflow of the production line, the system accommodates stops, starts, and changes in line speed, providing flexibility and minimal interference with the production process.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Customizable Design",
+        benefitDescription:
+          "Each Eagle Eye – TCI is specifically designed for the bodies manufactured at each plant, with customizable dimensions to fit different types of vehicles, ensuring versatile application across various production lines.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "High Speed and Accuracy",
+        benefitDescription:
+          "With a standard inspection speed of 10-15 m/min (up to 150 jobs per hour), the system can be adjusted to higher speeds, maintaining high accuracy and expanding its capabilities to match production demands.",
+      },
+      {
+        benefitId: "benefit-7",
+        benefitTitle: "Quick Start-Up and High Detection Rate",
+        benefitDescription:
+          "After installation and calibration, the system achieves a high level of defect detection, with a final start-up and adjustment period of around 10 weeks, ensuring rapid deployment and effectiveness in quality control.",
+      },
+    ],
+  },
+  {
+    id: "base-clearcoat-painting",
+    title: "Base & Clearcoat Painting",
+    text: "The Eagle Eye – TCI system is designed to have the minimum interference with the productive system of the plant. During the inspection it is not necessary for the bodies to stop, register to a fixed position or slow down their speed. ",
+    subText:
+      "The system also allows the simultaneous inspection of two consecutive bodies, it is not necessary that the inspection of the first one has finished for the inspection of the second to start. In addition, the inspection process adapts to the normal work flow of the line, allowing stops and starts during the inspection, and changes in the line speed.",
+    imgs: [
+      { id: "img-1", img: imgEleven },
+      { id: "img-2", img: imgEleven },
+      { id: "img-3", img: imgEleven },
+      { id: "img-4", img: imgEleven },
+      { id: "img-5", img: imgEleven },
+    ],
+    benefitsTitle: "Benefits of Using Eagle Eye Top Coat Inspection.",
+    benefitsCards: [
+      {
+        benefitId: "benefit-1",
+        benefitTitle: "Non-Stop Inspection Process",
+        benefitDescription:
+          "The Eagle Eye – TCI system stands out for its ability to inspect vehicle bodies without stopping or removing them from the production line, ensuring a seamless and efficient inspection process.",
+      },
+      {
+        benefitId: "benefit-2",
+        benefitTitle: "Minimal Maintenance and Easy Integration",
+        benefitDescription:
+          "Controlled by a single PC responsible for treatment, calculation, and control, the system requires minimal maintenance and is easy to integrate with the plant's cybersecurity protocols.",
+      },
+      {
+        benefitId: "benefit-3",
+        benefitTitle: "Simultaneous Inspection Capability",
+        benefitDescription:
+          "The system allows for the simultaneous inspection of two consecutive car bodies, ensuring high throughput and efficiency by starting the inspection of the second body before the first one finishes.",
+      },
+      {
+        benefitId: "benefit-4",
+        benefitTitle: "Adaptability to Production Flow",
+        benefitDescription:
+          "Designed to adapt to the normal workflow of the production line, the system accommodates stops, starts, and changes in line speed, providing flexibility and minimal interference with the production process.",
+      },
+      {
+        benefitId: "benefit-5",
+        benefitTitle: "Customizable Design",
+        benefitDescription:
+          "Each Eagle Eye – TCI is specifically designed for the bodies manufactured at each plant, with customizable dimensions to fit different types of vehicles, ensuring versatile application across various production lines.",
+      },
+      {
+        benefitId: "benefit-6",
+        benefitTitle: "High Speed and Accuracy",
+        benefitDescription:
+          "With a standard inspection speed of 10-15 m/min (up to 150 jobs per hour), the system can be adjusted to higher speeds, maintaining high accuracy and expanding its capabilities to match production demands.",
+      },
+      {
+        benefitId: "benefit-7",
+        benefitTitle: "Quick Start-Up and High Detection Rate",
+        benefitDescription:
+          "After installation and calibration, the system achieves a high level of defect detection, with a final start-up and adjustment period of around 10 weeks, ensuring rapid deployment and effectiveness in quality control.",
+      },
+    ],
+  },
+  {
+    id: "automated-film-wrap",
+    title: "Automated Film Wrap",
+    text: "Encore's Automated Film Wrap System system is designed to have the minimum interference with the productive system of the plant. During the inspection it is not necessary for the bodies to stop, register to a fixed position or slow down their speed. ",
+    subText:
+      "The system also allows the simultaneous inspection of two consecutive bodies, it is not necessary that the inspection of the first one has finished for the inspection of the second to start. In addition, the inspection process adapts to the normal work flow of the line, allowing stops and starts during the inspection, and changes in the line speed.",
+    imgs: [
+      { id: "img-1", img: film_wrap_1 },
+      { id: "img-2", img: film_wrap_2 },
+      { id: "img-3", img: film_wrap_3 },
+      { id: "img-4", img: film_wrap_4 },
+      // { id: "img-5", img: imgEleven },
     ],
     benefitsTitle: "Benefits of Using Eagle Eye Top Coat Inspection.",
     benefitsCards: [
